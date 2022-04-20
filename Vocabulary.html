@@ -1,0 +1,1467 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+  <title>Korean Vocabulary</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="common.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+    $(document).ready(function(){
+        
+        /*웹페이지 열었을 때*/
+        $(".play").show();
+        $(".pause").hide();
+
+        /*img1을 클릭했을 때 img2를 보여줌*/
+        $(".play").click(function(){
+            $(this).hide();
+            $(this).next().show();
+            $('.pause').not($(this).next()).click();
+        });
+
+        /*img2를 클릭했을 때 img1을 보여줌*/
+        $(".pause").click(function(){
+            $(this).hide();
+            $(this).prev().show();
+        });
+
+
+    });
+
+    function errURL()
+    {
+        alert('404 Not found') // url 오류
+    }
+
+    var audio001 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C91F1CDDBE234168864AC1E17226D598.mp3');
+    var audio002 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/49CF24F848AB4F6BB43FE91CD4004EF9.mp3');
+    var audio003 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7B18112BB868462DA47C4474F74736E1.mp3');
+    var audio004 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/AAAA9D41EE594E69911155BB27DD2472.mp3');
+    var audio005 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/E4F3E173765A4FAC9C579150154FD14C.mp3');
+    var audio006 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5D70506708474AC1B53843357A64C85D.mp3');
+    var audio007 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0ABBF7699E9E4585B82924A25B289359.mp3');
+    var audio008 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0F1D66BA2999440A96C039258CF7000F.mp3');
+    var audio009 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/EB9FB793A9D24C6489DAB3EA709F5F4C.mp3');
+    var audio010 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/E198D7FB3C07462DAD57A21691001799.mp3');
+    var audio011 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/CF40ADEBEF414A5486ED288E5B58B191.mp3');
+    var audio012 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0AF2A9786DBD40D9A8C012CE07B03F6E.mp3');
+    var audio013 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8239752250224242ACCB10CA4EF45122.mp3');
+    var audio014 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8F63D8670802403FA832ACBF71565B00.mp3');
+    var audio015 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/AA3F4122DE2D4567A6AC308EBA041CC7.mp3');
+    var audio016 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8DB51A0F50C244F399D314F2810490D0.mp3');
+    var audio017 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/97B5182C9D7544B1815AE52C2070978F.mp3');
+    var audio018 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5287DA811FC24CBEAF52C4A36022BE35.mp3');
+    var audio019 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/74804A9A480C44F8BA09B3848CD3A674.mp3');
+    var audio020 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5F931AEDE4F64973A0D3AD7038273743.mp3');
+    var audio021 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/3F37DB1ACAE5451FA8796B42FF4355BE.mp3');
+    var audio022 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/1A04AD75587E4DF191635F1D5FBAE6F9.mp3');
+    var audio023 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/42D60F699C644615ACF86693D4BE418E.mp3');
+    var audio024 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0D2321704CCE46C99B04C6807BB1A924.mp3');
+    var audio025 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/ED7043172DC84F1AB27CA471172AFB2C.mp3');
+    var audio026 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/07933433595B45E08B67FDAD76B1D166.mp3');
+    var audio027 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/03C23DB59FC94998A4D62985F013D049.mp3');
+    var audio028 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7E9DA14A3C5E4949BE734C24346F62C9.mp3');
+    var audio029 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5468EA79BB02458ABA5C6B12312BB4F9.mp3');
+    var audio030 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8D268DB819C14FEEB2785F80E7B1796B.mp3');
+    var audio031 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/3187EEC473444C80A4F46E0C04E291D7.mp3');
+    var audio032 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/D44032AA6BAC4674B3011D4A704877EC.mp3');
+    var audio033 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/614162BF50804760976A14B062DD8E13.mp3');
+    var audio034 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/1233D8CF639A4AE98E3A575CE4A48607.mp3');
+    var audio035 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/6EF23A636F2B4A16B35B86C7673B3375.mp3');
+    var audio036 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7ABCD70E50D84C8FBBC0EE8757EBDF3B.mp3');
+    var audio037 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/711077B737694C2585205DF499D23347.mp3');
+    var audio038 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/324EABDFAB714EEF934FD906E993E9E0.mp3');
+    var audio039 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/77C2C4350446497AABF7699595020B0B.mp3');
+    var audio040 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7CB34BCC11FF453D9F73137222FD5D45.mp3');
+    var audio041 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/03FD3AD792C54A80AFE206867EACACA5.mp3');
+    var audio042 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/FB346B2702544B69B9D5DC343EE76A24.mp3');
+    var audio043 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/AA54500BD2D74B0B9F6A2DEE4DBDC668.mp3');
+    var audio044 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/3351CE5148E744429AE0EF32C9282044.mp3');
+    var audio045 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7C6564636C354560B8CF6F01120AA2F4.mp3');
+    var audio046 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8B778328476243F38289C46D81F4FDA6.mp3');
+    var audio047 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/A983F00972CD469A8FB8FF1383436B78.mp3');
+    var audio048 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C0028100E20D4A78B7A8BB7745FAE632.mp3');
+    var audio049 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8046AE1C08FA41EF8E89C8DAEA4D2EA1.mp3');
+    var audio050 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B6C34F1B6FBA46CB8EF52E27BA456550.mp3');
+    var audio051 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B0E5D8869BD54354836E427E7DF51C8A.mp3');
+    var audio052 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/BEA434152E3347E5B35DB30822958B85.mp3');
+    var audio053 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/355BDA06535A43E59496783FE4D48D5B.mp3');
+    var audio054 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/376B9EEE887346BB914166E4B5431876.mp3');
+    var audio055 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/DAEED8ECF0F3488BADF78D6674AB6869.mp3');
+    var audio056 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5C04EDD9A7BE47028814B0C68173B86A.mp3');
+    var audio057 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/86B8F97E1D384905A3768115A90281BC.mp3');
+    var audio058 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5A552545C7C7420998BBF0252630FB62.mp3');
+    var audio059 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/00CEE2629CAB48CABDD69314269CD99A.mp3');
+    var audio060 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0C1B0B9E2A344DB785E155F517291E1E.mp3');
+    var audio061 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/F381372B0DB74B6D98B532D9BCF0BA6A.mp3');
+    var audio062 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/2EBA15CD39134DFE904EE92E72FF7C3C.mp3');
+    var audio063 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/2016949CF14C4DB48701ADF6288A04EF.mp3');
+    var audio064 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5B4DD3639F95411591A3EB5B0F7C89FB.mp3');
+    var audio065 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/22766DE0757C4103BFE16839BEB93957.mp3');
+    var audio066 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B43F4FCFB0EF449AA0A7345F119786A1.mp3');
+    var audio067 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0988772C002D4F7CB1D13C85617C5884.mp3');
+    var audio068 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/211A2774EF5441F3868597B6765ECF4B.mp3');
+    var audio069 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/2D59059E029F4E4599D2E68D6BA07781.mp3');
+    var audio070 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/EE4854AFCBDD4E68A3E245C99A151D4D.mp3');
+    var audio071 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/1AADDB7E51284969A799A818388E002F.mp3');
+    var audio072 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0F780454DCEF42D3A5659F4050987950.mp3');
+    var audio073 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B3A43D0D763F4B39B24E501F087E720E.mp3');
+    var audio074 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/26F0DB5D7E2246F583B77EEC1FD9B7CD.mp3');
+    var audio075 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/F51325A6C93540369FB270D53E3A57F6.mp3');
+    var audio076 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7664B5C04CED4633AE5137A05D0FBE5D.mp3');
+    var audio077 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/2C885DD65CC04330B7C8BD4E77F051FC.mp3');
+    var audio078 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/24476E8EB8B64B349DB3338E41D89E22.mp3');
+    var audio079 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/CC0AFC80EA5E478AA7FB65A9C940140A.mp3');
+    var audio080 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7D27999BEF0B44ECA5AC424365AD99B0.mp3');
+    var audio081 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/19DAD70647254F5789CC851BDAC025B5.mp3');
+    var audio082 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/DA969826B7CE44FE99FAC5AE285AF448.mp3');
+    var audio083 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/F595CC73C53742A0A2778C2CB003E20E.mp3');
+    var audio084 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/AA765E5967744535BFD207A3F10348F7.mp3');
+    var audio085 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/13AFA809BFB34EE085645B9A7EDF2E67.mp3');
+    var audio086 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/73B6988BEDD84FF8A7A64808092688F8.mp3');
+    var audio087 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/07BCF5DCCEB54D8495B8EC001CAE6C8B.mp3');
+    var audio088 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/E256B86D4665476C8C27B96A537B7B3D.mp3');
+    var audio089 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9A340A0BEF494667984761F030DA99D2.mp3');
+    var audio090 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/4EC570A647EC41179BA868AAC3D514F6.mp3');
+    var audio091 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/A39DA901173F4B3F86F2E8C0A5A75F27.mp3');
+    var audio092 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C68A4D7D7B9048ABADDC0D604F195862.mp3');
+    var audio093 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/AD2B2DD26CC4413F8CED18A0D2EC89AF.mp3');
+    var audio094 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B8DC5373467C47EFA51FB45A5102F6A9.mp3');
+    var audio095 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7956AF61CAD44E8BBD78356AE1DF6018.mp3');
+    var audio096 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/D40B080351114C5D9A5234A8F6A13EF6.mp3');
+    var audio097 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/6131E7884CF94D2191C6812A9C131667.mp3');
+    var audio098 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/50460CEA518A4E15A5F8FA108820B1C0.mp3');
+    var audio099 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B901B993E9C74959A0BDFD578FAD2727.mp3');
+    var audio100 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/BEF65844B97943F8BA96034D96B527CD.mp3');
+    var audio101 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/89DD40CDCCF74F0FAC4ADC9CFC0CAE18.mp3');
+    var audio102 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/87DE9463FFBD43E6B4D5447F1CF194C8.mp3');
+    var audio103 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/46D4FCB617AD4BD5BD86670E0A33F331.mp3');
+    var audio104 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/A7E2D6EAF8454A3BBF1DB393F16D8646.mp3');
+    var audio105 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/1D28B3ABB1834BE8B0BA133C35B5B9EB.mp3');
+    var audio106 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/4494D4E68DC74F9D9351DF92BEF073EA.mp3');
+    var audio107 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/2A52B9CACC284A1B966DA7A95D1CC4D3.mp3');
+    var audio108 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/00861CA5286C42459AE13FBDAAF51AB8.mp3');
+    var audio109 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/08DDCE8508B94D77A8250A5B34CE790E.mp3');
+    var audio110 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C21D5A759DC243A0AE46D9911EC5D502.mp3');
+    var audio111 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/FA67251FCBB844179FF9E4C25C48227C.mp3');
+    var audio112 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/EC50986B86924A83A956A843D924C34C.mp3');
+    var audio113 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/3F4AAE2C53254FE7B4937627D5CAB583.mp3');
+    var audio114 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C4247321A1CE4B4590A7A033C871EBAB.mp3');
+    var audio115 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/CBB052FDC3DA4139B42E15AE9BC757A9.mp3');
+    var audio116 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/6C4568FFC4B3466193C7E8B87F8626CE.mp3');
+    var audio117 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/198E2123B5504EE7B650B71300A63FA5.mp3');
+    var audio118 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/03EDCB1B86E7487F98B57412BB3E41D4.mp3');
+    var audio119 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9AE998A0E3A8481D8957EEF4199AFF26.mp3');
+    var audio120 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/3542969F62FC4CC3A57E7FF4E6FBCB10.mp3');
+    var audio121 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9751AA6F6FB9409A8DF2D3AB7011454C.mp3');
+    var audio122 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/18F39D73CEC84438A900F08C8A265EF4.mp3');
+    var audio123 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8E825AAB42644CB8A70A820F2F515DF6.mp3');
+    var audio124 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/936F949940094D9CAC14A23A3D4191E2.mp3');
+    var audio125 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/684705D18B1B48C7B5FBA8BC70C701FF.mp3');
+    var audio126 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5E8FD8177778407DB96499E01EEC3046.mp3');
+    var audio127 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/E8927433FFC94CEF9FC65465330529D1.mp3');
+    var audio128 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9C7B73C5DC534B248BD1F4F1737F18E3.mp3');
+    var audio129 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/CB74474A11EC4C32A2AE2CC22FDB51CE.mp3');
+    var audio130 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/25B36F966EEA4F0DAE1D7CBDDEBB7114.mp3');
+    var audio131 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/14CF41DC757A4B898ACD164CC258C281.mp3');
+    var audio132 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/A6409A7F9B494772B1907FD704D68E56.mp3');
+    var audio133 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/B9DA631D18184D1690F88A36429D66EC.mp3');
+    var audio134 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/CA941357E7AC4E9BBD94C1537E4A7E2E.mp3');
+    var audio135 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0F4764C978F24B478D0B3652DB04F8B9.mp3');
+    var audio136 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/8DA223EB3FB847E88F23E2678920847E.mp3');
+    var audio137 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C4B6F45F83CC4A71AB1153981CC4DA2B.mp3');
+    var audio138 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/78A2E98158CF4DCC89FB5E8BADE31DE6.mp3');
+    var audio139 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/EC6171B303444146A1696D5BA5517B9A.mp3');
+    var audio140 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/D99F6D595C344FEBBDFDD96193473514.mp3');
+    var audio141 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/D1746F57206246388CA65053862CE3E7.mp3');
+    var audio142 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/7E69CE1A73A04B2A8FE9573F7F1D892F.mp3');
+    var audio143 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/C09A948B60B74B7E8E2D4242A16CA718.mp3');
+    var audio144 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9F79226F452B45F88EF8F18F404B84A5.mp3');
+    var audio145 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/5D173B46A5104101AA1D50B0C172FD7E.mp3');
+    var audio146 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/D6D13E48BD9940B2B366B56F4C257EE6.mp3');
+    var audio147 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/0AA723FE4154452486144C7144523D17.mp3');
+    var audio148 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/9A4CBEC6B10C48C09DA33D2E19DA6AB2.mp3');
+    var audio149 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/DBB3A5E97E9846069C2C02D9850935DF.mp3');
+    var audio150 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/15/870ABEFC46E54192B52BDE7EC5098437.mp3');
+    var audio151 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/3DF53D6E28B74C0F9F464D7A293BCABA.mp3');
+    var audio152 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/081DE21F942F4252A86BAA99718C14F4.mp3');
+    var audio153 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/A783739600D844CB91F983AAB85093CB.mp3');
+    var audio154 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/F871499503C24C6390B8949B8E09269F.mp3');
+    var audio155 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/10646E01010447C7823A32438B5482B2.mp3');
+    var audio156 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/6B33BF371634467F80A57221802B1F81.mp3');
+    var audio157 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4AD38C5ACFAA4EE9BBD18681AC976D4A.mp3');
+    var audio158 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/F3E008AE5C9C4DE1B18C56F44E541737.mp3');
+    var audio159 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5CC93492FC4A420EAE06360060DF7DD2.mp3');
+    var audio160 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/20F0BD2B59184FAE99742460F45889D3.mp3');
+    var audio161 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/F007CD51A28F4971B43E4745D4F2C4B4.mp3');
+    var audio162 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/7BB947A659C6497BAB6FC5C571CF762F.mp3');
+    var audio163 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1E28D21339004E838B8EB65054C40B90.mp3');
+    var audio164 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B7ACC81114EB47A4AC9EF19229ED1B47.mp3');
+    var audio165 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/16D4DC5F2EA9422E98C5E175276AAC9E.mp3');
+    var audio166 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/68860BA0F6FC452DBF2B7F1580C307BB.mp3');
+    var audio167 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/57E3B9B9EF17475B887AD7E1928237E9.mp3');
+    var audio168 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4EA0C1778F3F40C2880531EE67EB6273.mp3');
+    var audio169 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C4D3C2C833D842089CFAF506DCC04C2C.mp3');
+    var audio170 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/8657A6044E494CB7BF3A82213DF715A7.mp3');
+    var audio171 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D40ABFB9C36F42DDBF7A5CCC5DB2F789.mp3');
+    var audio172 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/9B8528677F064331B4234DB48A6396DC.mp3');
+    var audio173 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/72AB7185D5EA44B9AAE521795ABE177A.mp3');
+    var audio174 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/9C755E9F046C44F197F5B9F5318665E8.mp3');
+    var audio175 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/ADC71FE01FFA4691929F7816163257C0.mp3');
+    var audio176 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C251A81DEEF1497B9C15DCA8D5FA9A99.mp3');
+    var audio177 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5F72F163D661491A8D1C4EEA460571B1.mp3');
+    var audio178 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/09D4F95BB17C46188B2BED000C021607.mp3');
+    var audio179 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/FFB6F13F93C34CD8B20EF5C251B060ED.mp3');
+    var audio180 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/3D111AFEACB5414F9057D705DC735A7A.mp3');
+    var audio181 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/903DDB8D387E4FF9BFFCA745BC9C1A3B.mp3');
+    var audio182 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/0BDD72FBF1F44F99B33CDBB84F3469AF.mp3');
+    var audio183 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1389277BF8BF458CB19E4565D030995D.mp3');
+    var audio184 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5E2C221070794FEB9192ABED3C1E69A6.mp3');
+    var audio185 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1C0E86BFC98F4DE6969FBD2FBE38C8B0.mp3');
+    var audio186 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/E683ED67B451445DA8B1DD49F7A70721.mp3');
+    var audio187 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/843397846BEC440CA2079AAE5F4652DE.mp3');
+    var audio188 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/9659543F619F4DDCA1C9C2BE2CB4243C.mp3');
+    var audio189 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/319783019C00473BAA60D88D905BB869.mp3');
+    var audio190 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/3F5932E1BB7745DC93C5ADB9E04E669D.mp3');
+    var audio191 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/94BB28553783401B88A0E5A04DF9D76F.mp3');
+    var audio192 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/12E4A2850F2B4E4E9FF4D9A5AC3DCAC4.mp3');
+    var audio193 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/0A8EE50D08BF49D592236E1AB974E0A5.mp3');
+    var audio194 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5C6C1E7669A44C91AE13B1FA81847B53.mp3');
+    var audio195 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/447060A3C4F04F8EA3C6A5328ABD057B.mp3');
+    var audio196 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5FAF0D417A674CEA96F3C30B511D8E5D.mp3');
+    var audio197 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/F55AE1BA56884A3499E3FD46427E575D.mp3');
+    var audio198 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/14DF1977A4694105A4BAD319FF7192BE.mp3');
+    var audio199 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C5A20EA6498B43CEAEB97F033613D8A7.mp3');
+    var audio200 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/CB86234A92FE4127A1A432DBF1210631.mp3');
+    var audio201 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/2C66B067B63345F5B8AF43FA688875B4.mp3');
+    var audio202 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/79C3CAD5513649929F14C644A8C5D82C.mp3');
+    var audio203 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/66EAC2E20B1E4CEBAD3D682AD9751176.mp3');
+    var audio204 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C24F243F392C40BC80E548F59C98C8E7.mp3');
+    var audio205 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B96C1B52360A42BC9807A9012004BFBC.mp3');
+    var audio206 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/8292787F77DD449697C96E1F4B7A6D2E.mp3');
+    var audio207 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D8D700FF2734482490E9FA47D2259B58.mp3');
+    var audio208 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B3CEE119093D4C6DBDECF90F683CEB65.mp3');
+    var audio209 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/BF858007D2594F19913F24A7DB8D8B7C.mp3');
+    var audio210 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D9C2C368FB9041CC9CA1F4F4A2512C22.mp3');
+    var audio211 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/039EB60582C44A0B9EBDA6A5F662A635.mp3');
+    var audio212 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B4DBE0343E7C4D7995BEF4D2A459404E.mp3');
+    var audio213 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/E4FF2D42AF0A45CFB0B02DDCDAFBAC10.mp3');
+    var audio214 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1F5E11A573ED4076BF65C8561134A800.mp3');
+    var audio215 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/655522E65AE6480B825EE1FB262EAC28.mp3');
+    var audio216 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/941063D17D514C22B19D7508E6B1AC89.mp3');
+    var audio217 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/75422ED45FC04EC7A8B5AE1F304DFC3D.mp3');
+    var audio218 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D280CA966EDF4B818E44D4DF9E30A7F0.mp3');
+    var audio219 = new Audio();
+    var audio220 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/DEF2CF05DD394B549AE8320B7227FD7B.mp3');
+    var audio221 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/278B8BFC61EC487F945DB777574FF0DB.mp3');
+    var audio222 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5E56068089C54FD397652D2EF2CF484A.mp3');
+    var audio223 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/601E98B5B0C5445DB2A0BEDFDABDD8BA.mp3');
+    var audio224 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B41C8DA81E124B32A5D46674AC117170.mp3');
+    var audio225 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/71A01B720FDC4F9DAAE81F2646414BA4.mp3');
+    var audio226 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4D49B08684994114A963A96272F0A050.mp3');
+    var audio227 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/901D92B1E9034571B417F879FC75A6E1.mp3');
+    var audio228 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D52D81065CC34828A3D0ACD497A37C68.mp3');
+    var audio229 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/2307391C5E00477AADA578B3CD47F0A4.mp3');
+    var audio230 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/ADEE7DD1B516417F8DD163027F7592CA.mp3');
+    var audio231 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/DC3585BB2FDB407D923AB7FCE1285837.mp3');
+    var audio232 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/40659DFAEBA6432DA4162C8611DDF54E.mp3');
+    var audio233 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/E2576CCC01894EF186B5E3EBBF6171B1.mp3');
+    var audio234 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C70FC46684BA43FF8E7F5460F1170280.mp3');
+    var audio235 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4785725BBC414E60ABB24871C0BA31E1.mp3');
+    var audio236 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/EB3D2999A00048BD84C79D6BFC47BB84.mp3');
+    var audio237 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/FE4FBB708EBF46DC8FEF90A2F28A7A1A.mp3');
+    var audio238 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1A12C19B2D6A4EA2BB57D07617F94EE2.mp3');
+    var audio239 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D0500147A30A43F5BD49C4C7FAF76BFE.mp3');
+    var audio240 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/E08B497211F54CE899E83C504894DB9B.mp3');
+    var audio241 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/8ED7090F0D2F4484A7C7E3146CA98A2F.mp3');
+    var audio242 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/27B49A5387EE4E3EB6D9F4BD79A42586.mp3');
+    var audio243 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/FC470CE462C344C9AE361C52FCBE794C.mp3');
+    var audio244 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/DCA301387C1D4500979F7CCC6C309D2F.mp3');
+    var audio245 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/1018A8731A1147118C365DC4A976C12B.mp3');
+    var audio246 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/5C5FC01792B94183AADA3F80C29AD8C1.mp3');
+    var audio247 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/D7C9FA0F318A4530A580B21CAA55CD0B.mp3');
+    var audio248 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/DBFDD4C68DC0447D9B52BB84E3500BC2.mp3');
+    var audio249 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/7E1762AABF02476D88EEB756EFCFFF73.mp3');
+    var audio250 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/64D8C4671BE6455BB0EC373F5D545D83.mp3');
+    var audio251 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/EED5504190524D58BED1417BCE69EC22.mp3');
+    var audio252 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/ECBC3765316F406187E5CC798571B4D0.mp3');
+    var audio253 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/DA740386877542648668515E52EB2063.mp3');
+    var audio254 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/09C77CC3FA314CB48AC41261FAFCD123.mp3');
+    var audio255 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C5606FB333094E6587B2922D085BA3F8.mp3');
+    var audio256 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/9071F0DC7E0340BB91A6782720158EF6.mp3');
+    var audio257 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4E4670F1391A4D28AF72289F15D770C7.mp3');
+    var audio258 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/50A47AA22AEE43F6AE6F82D60CEC25AB.mp3');
+    var audio259 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/842501A796DB4C86B97F499ED65588D5.mp3');
+    var audio260 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/0C988A5A276C42B88C1D0D12593B6585.mp3');
+    var audio261 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/B7D307BB5AFE497CAE40D169F6DD21E4.mp3');
+    var audio262 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/F53A898715E24B1D9CD149FFE675EB55.mp3');
+    var audio263 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4BB95708DA2840A0A610010765AC8290.mp3');
+    var audio264 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/07AD7A8917A748D6A315A8E942E25DF0.mp3');
+    var audio265 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/7F8C39240F214BBE896BABD955681A77.mp3');
+    var audio266 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/52E692C31AF148D9A9D12BF368BB3174.mp3');
+    var audio267 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/EB7A5B0B0DDE4F5CACBF0A8938111B00.mp3');
+    var audio268 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/C8D49BA10DB04D55B7A70811CFFCCA02.mp3');
+    var audio269 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/75B6AF34D1204DA0B0AF89BBAB8EB43F.mp3');
+    var audio270 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4C06C5731D924FB28391CA41A6FDC3F0.mp3');
+    var audio271 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/0AEAF38F5FD74223B7D15AEC4A52B649.mp3');
+    var audio272 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/42147E69C04D4F3DA66F9B62BD1ACC6C.mp3');
+    var audio273 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/EDFAF30C7A204C0AAF12B872B91EC7B4.mp3');
+    var audio274 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/4F6C73A0FC244218BC47394525FDD17C.mp3');
+    var audio275 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/602A5ED42BC040DB807F92B430BF4F71.mp3');
+    var audio276 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/38203F8A56894B84BB200733C416851D.mp3');
+    var audio277 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/58469C14B1C54E8AB106BE0908F801BA.mp3');
+    var audio278 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/92B9864DE2D24507A38A6B1D1F400949.mp3');
+    var audio279 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/93BDD22DB8CD4FD8BB802D20372880E9.mp3');
+    var audio280 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/12B4FD8960E640ECB1DF0B294F55681F.mp3');
+    var audio281 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/475530A4E435410BB4ED9F4079927D7B.mp3');
+    var audio282 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/BE36338C766E43388122A7109635F120.mp3');
+    var audio283 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/EE3555C26FD3492583691A38F6C930CA.mp3');
+    var audio284 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/14/957DFD2F2D6D4022904518F286DB92EE.mp3');
+    var audio285 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/DD3101C3BFC241E3B774C38C4A951D64.mp3');
+    var audio286 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/AE55DCC451134451ADF5373F42DD8AA9.mp3');
+    var audio287 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/8EB4D0A175F44B7A85EFD4FF50953DF4.mp3');
+    var audio288 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/9E8B935354094B15865929DE33270C1E.mp3');
+    var audio289 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/C4C2500275B84950846ABCE620C8F763.mp3');
+    var audio290 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0437277D5A324706B2DB2AACF954E1E8.mp3');
+    var audio291 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/F9876BB6769A4321948F69A2C8A7F4D3.mp3');
+    var audio292 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/19D6BED71A0C4202A6D00802133474AC.mp3');
+    var audio293 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/73EAC89BD20241A69F26A476CF8E0F50.mp3');
+    var audio294 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/DC2AF964C93341C98DB743EC335448E9.mp3');
+    var audio295 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/95BDFFE0C1ED434E9F95814F5FD6B34F.mp3');
+    var audio296 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/9339243CEA4A4DEBA287DDBC1B2D8B19.mp3');
+    var audio297 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D7EB48290C9649A5B0EDF7C64A46E06C.mp3');
+    var audio298 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/897928D811434C72BDE9C6A9EEC95ED9.mp3');
+    var audio299 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/76785EDF470F42A8A1969E68A69998D1.mp3');
+    var audio300 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/7ADB2CA8F1884C2894389A80BAD2D831.mp3');
+    var audio301 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/90DD0C1237B844ED9062FBFB7AF185F3.mp3');
+    var audio302 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/CE2B7E3863324A37986D5186C4110EC6.mp3');
+    var audio303 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/85428B07C8874012A3D56351EF3E6A39.mp3');
+    var audio304 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/7910DA50344E4F93ABACFED8665E4D84.mp3');
+    var audio305 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/91533E53644B4B1D8409CFB423F4254A.mp3');
+    var audio306 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/44C2AA34F7D24129A974DAF0D81FE7EC.mp3');
+    var audio307 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/506B9B2E310C46C286BA8934A02D38DC.mp3');
+    var audio308 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/CA1088219A5A4DA0B2677F163F760E59.mp3');
+    var audio309 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/3A7354195A5F4744902F86E8638A1DDE.mp3');
+    var audio310 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/ECD1FF6F033E4BC2AC7D122085B59FB9.mp3');
+    var audio311 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/220A1A06196F4B3CBC6120D8AD30F405.mp3');
+    var audio312 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/45928084C4DC417A8DF27A7FC41C4C3C.mp3');
+    var audio313 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/8098198827894146979D63F0A6EECB94.mp3');
+    var audio314 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0096EDC02BEB4A48965F486020A96EC5.mp3');
+    var audio315 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0D913A8912BF4CF5BCDC7292145EDF53.mp3');
+    var audio316 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D2F9FFE589954052B83BC0DB93A92FBA.mp3');
+    var audio317 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/436A22458D16422EA24EDF31B9272C26.mp3');
+    var audio318 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/A6791215D4734F378B3EC1442D4CCC35.mp3');
+    var audio319 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/04F51D4E9C39426FBA26AB5C39500187.mp3');
+    var audio320 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D41943267E3B49F9838CDFDA9C2B1947.mp3');
+    var audio321 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/4A2B2E049AE745899EB71AB8BEB35A29.mp3');
+    var audio322 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/FAC4D070171942149BDD75E3DDFDA2F4.mp3');
+    var audio323 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D7900313EA1D4D2C895D580150D2B6AF.mp3');
+    var audio324 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/B26E2B6F9CE34C03957766E20F932E01.mp3');
+    var audio325 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/C36852F4C91D48E384B431C162306483.mp3');
+    var audio326 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0C499D00EEA14E61A0AE7A4C6129D89C.mp3');
+    var audio327 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E3ED46AB5FA14DF5AEDF6E61EC54F623.mp3');
+    var audio328 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/5F07DD8224204896A18BD68F96D5996D.mp3');
+    var audio329 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/09F9A06D962644DBA7DF8E96848BF212.mp3');
+    var audio330 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D3288C399B1744EFA2AD775E8086CE6C.mp3');
+    var audio331 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/1015E9CF280F4E1CA729D888B394D613.mp3');
+    var audio332 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E1665378756246A888BEB035905A9E93.mp3');
+    var audio333 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/92FE3866C18844D5B7C3F84553E580B6.mp3');
+    var audio334 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0AAF2AEAF42D48F2906E9CA072F640C2.mp3');
+    var audio335 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/96A9829147B44770816E28596203FCFE.mp3');
+    var audio336 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/B0DD6F0FAE454971BB224510B12A683F.mp3');
+    var audio337 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/22986FE6096F4D589757046FA0DD020F.mp3');
+    var audio338 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E3BBD967AF224F6DB5B796FEE5787E9A.mp3');
+    var audio339 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/34F7B92A49AE4105BB966D53915D3C1F.mp3');
+    var audio340 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/784CB68912564675819DD3CE92F1DDBF.mp3');
+    var audio341 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0FA9EF4E05D747DC875506DF763DA4CD.mp3');
+    var audio342 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/0A9BD1699B2042CB984AD36830303E20.mp3');
+    var audio343 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/2145AE3E9FA446DB8D18E5DED7632768.mp3');
+    var audio344 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/38E7D71F4E1E4176A844498B85D7CDDB.mp3');
+    var audio345 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/29F77A7BE2BC4909A86F99186616CE11.mp3');
+    var audio346 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/C7CFFF50D62F405ABC769F55C19A174C.mp3');
+    var audio347 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E59A51DC21034E188E4C6D257A2B1946.mp3');
+    var audio348 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/8107E3556EDA451ABD736F93200C2644.mp3');
+    var audio349 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/ED4E8E1C195940778B41E9CAC5DA1465.mp3');
+    var audio350 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/890A018078DA45D48E4ADDCC201C4A8E.mp3');
+    var audio351 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/5B7D5A1A180547AC988C146318766F53.mp3');
+    var audio352 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/68C71F39911E4721A442AF1D67913E75.mp3');
+    var audio353 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/50B50C283D6E4B22AE760F2B1CF154FD.mp3');
+    var audio354 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/716A588D1BA042D99DF6BC5DF39A818B.mp3');
+    var audio355 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/7D823FB72E6344EE9EFD01DD3DA62A6F.mp3');
+    var audio356 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/B75473D4C2DC4F21995A056DB6930C42.mp3');
+    var audio357 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/A3479439F2434450BA5F9E7504AE2809.mp3');
+    var audio358 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/5D00E880976549AF8796482DAE055EE3.mp3');
+    var audio359 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/ECDC1695E733439D8DCA7E1586D52825.mp3');
+    var audio360 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/C4E27A4D30DE48DDAE007305786EBE1B.mp3');
+    var audio361 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/BF9BB25BD2BE46D29C80763F715BF816.mp3');
+    var audio362 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/20F46EE0F8EE43B18D0F110B374529DA.mp3');
+    var audio363 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E0D2F4490E5B4B339C2FCBD0A05C5B0D.mp3');
+    var audio364 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/23D8F06DB36C4555B2E0F601F7DE087B.mp3');
+    var audio365 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/39817BC7B051404DB3FB387C865AC76D.mp3');
+    var audio366 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/1F6D957EC91C4A6C88028CA1CEB878EB.mp3');
+    var audio367 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/270B9D75F8984E6C92E8706E22F09366.mp3');
+    var audio368 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/F6B7EC90DCC24152A733EBB0155D89F0.mp3');
+    var audio369 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/F9B6FC036F3148F3B102D4215ED1E9A8.mp3');
+    var audio370 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/3D9DA42345654226AD38D0888F89D1A0.mp3');
+    var audio371 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/2E55534B57464D44AB90B426F951B235.mp3');
+    var audio372 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/B449C64BB0234E44A21DD36784E691D1.mp3');
+    var audio373 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/6D5B6F3F0E0544D3AF27B789D2AE9E03.mp3');
+    var audio374 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/5CB10170008E49AA8AF993DA7CE19A8A.mp3');
+    var audio375 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/F5F277209348412CBAB19DFDB1FABDAD.mp3');
+    var audio376 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/A3250F148AC04395A54F76C864C2502D.mp3');
+    var audio377 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/B43C841290D946A59CAAE63D4A2AD013.mp3');
+    var audio378 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/6E7E00E21A8E4AA3938B4BD9D2BA44F8.mp3');
+    var audio379 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D6E61A87992C4471B171B2FB0B3A9C74.mp3');
+    var audio380 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/EB7C066C22604AA2909A16812678957A.mp3');
+    var audio381 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/D52C2DB79A0A420BADA43D9977B34C5A.mp3');
+    var audio382 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/E239ED5DCD25466581CF1558DCA88B1A.mp3');
+    var audio383 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/10F1946690A848A983443A4FB9445670.mp3');
+    var audio384 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/EC31F417E8AD4FDF9AFB27A1BC7017B4.mp3');
+    var audio385 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/317491069068492E93D4900D71C8F1EC.mp3');
+    var audio386 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/76FC5CBD0D1D4D0190418DEFA249264A.mp3');
+    var audio387 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/A66B3CA802FC44C1B8D38211E1E09AFE.mp3');
+    var audio388 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/6334E6E9094741918C115714C5F3EAAF.mp3');
+    var audio389 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/06BD8CB5C07B4AE499C98E981D2E8A13.mp3');
+    var audio390 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/977C4502CE124657A688D7599CFCDF05.mp3');
+    var audio391 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/6041A47A13A14985A7CE918988F053E7.mp3');
+    var audio392 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/7751667703774BC2BF0EC3E3566ABE80.mp3');
+    var audio393 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/06/EFEF0169E9D54ED1BF3AA19323229E34.mp3');
+    var audio394 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B6881C8046F543689A8CEE60B8451409.mp3');
+    var audio395 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B025130E163D4BC6B6BCB7F2D3FC1FAC.mp3');
+    var audio396 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/46ED85601B524BD29747B56F9CF2ADEF.mp3');
+    var audio397 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/00FFDCF26A234B3188BBEF66D135FCAD.mp3');
+    var audio398 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C8CE9019367F49158FBAC6193641CD3D.mp3');
+    var audio399 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B1996A3D33154B30B5E1F6EF80F4475F.mp3');
+    var audio400 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/71758BB30144425AB75E8F3424D9233D.mp3');
+    var audio401 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C99D8FEEF97E45E3A50B83301288DC30.mp3');
+    var audio402 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EDA5ED15AAF14CF281042095115494F7.mp3');
+    var audio403 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1AA33038991746E0A488602057BA02B0.mp3');
+    var audio404 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2B8B458AC40944039EC634D478FB62E6.mp3');
+    var audio405 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1212678747344449A6A0494AE3E49DA3.mp3');
+    var audio406 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0892087A76AC4470806DB298854924BA.mp3');
+    var audio407 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6DFB7188DB32480E91733DE03573076C.mp3');
+    var audio408 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/29CC02628211443AAB3F43E72C4287F1.mp3');
+    var audio409 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B2EA2AAC01DC49109EA306E4FA944E37.mp3');
+    var audio410 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/444B0C85D966439385203FD133D713C8.mp3');
+    var audio411 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FBA1130630804FABB558B20C5322F600.mp3');
+    var audio412 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7CCBCA39205A4E7E9C39481E31F0476D.mp3');
+    var audio413 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/DBC258CE0186451882EB4A94BE08BC94.mp3');
+    var audio414 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/85961C2231EC4B7FA2250D812B9CA614.mp3');
+    var audio415 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5764BF7BA68D42C28183C9D76FE351DC.mp3');
+    var audio416 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3190B9C3DC5B47C6B05EA7B4B7042627.mp3');
+    var audio417 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CD50AC4BF8A2492D828BAB1993677F8C.mp3');
+    var audio418 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2618271C5A2345C48AA4D2ECD0C48296.mp3');
+    var audio419 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2CCD741BBCC34DB2AAADF43BE4593087.mp3');
+    var audio420 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1858960D84904326957DECD9BF9D7CD2.mp3');
+    var audio421 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7B697AF68ECD47EE8E290081A83179D0.mp3');
+    var audio422 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BA557F482FFF4FF89BC35DF2D39776D5.mp3');
+    var audio423 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/10F80095BBE94D52940D4F0D64F65E08.mp3');
+    var audio424 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/41B3A52208944FF4989EC44EC50EE7CD.mp3');
+    var audio425 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EB342739BD174F0EA005567529DDEB68.mp3');
+    var audio426 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/008F2CE4BCFD4A9CBA2E2BFE3BD32D6F.mp3');
+    var audio427 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EEFFE22280BB464693A88ACD7E0B0B3B.mp3');
+    var audio428 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FA3EC72AC3F348209958E2977EB00936.mp3');
+    var audio429 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/49B376B411C04367B2F908F295E12B5D.mp3');
+    var audio430 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1074D01B40034B939AF076C09BBCACB5.mp3');
+    var audio431 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/345DF8E8E71C47F5803B25D42B537D39.mp3');
+    var audio432 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5E9BDCB7E9704400B450DE624508EEE6.mp3');
+    var audio433 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D7957851E766421EA5A18CDD4850FD46.mp3');
+    var audio434 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BC192C0E506349CA805EF4B553709EB5.mp3');
+    var audio435 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EC73807A8F114CE387B17B36A9DA8FDF.mp3');
+    var audio436 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F5821E77C14B405AB19C81B206AC9F5F.mp3');
+    var audio437 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/548C3FE1BBFA4A02B8D42683E1554F0F.mp3');
+    var audio438 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5B8F9C9271684D27978DE7EF4E23BEED.mp3');
+    var audio439 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8C4BFC73FFFE4D83B623AE65C4D47535.mp3');
+    var audio440 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/51B368319EFA4752A8B8FD0CB60865DE.mp3');
+    var audio441 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F3D725AAD3BB4CCEB701991F4E65C6B9.mp3');
+    var audio442 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D308E0483EDA44C1A5DFB111A2C9CAFF.mp3');
+    var audio443 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F61AB5CF4C114FD7A2B3DE9857CFF32F.mp3');
+    var audio444 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/583F502B1C4B449B94FFDC6FE9C9B27B.mp3');
+    var audio445 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/000CE47F92B74063B7BB354F41B679DD.mp3');
+    var audio446 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/235319AC3F184D48AD05A20AB747C03F.mp3');
+    var audio447 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/369BCEA2CBB34AD098F338FFE3195F58.mp3');
+    var audio448 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/34446982B6814D04BEFB04BCBF57821E.mp3');
+    var audio449 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8E6227E67D074B438DA940E395A34994.mp3');
+    var audio450 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6A43CA531A4E4ADE80156E5E75F5A45D.mp3');
+    var audio451 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D8A76D382EA6437682C12BA6E395ACDC.mp3');
+    var audio452 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E615667A4EF640B0A5E972C2B6903AAD.mp3');
+    var audio453 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/91E76F90BD8E469D84756D1C2C0DF0D1.mp3');
+    var audio454 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/79309C6CB7A640FC8D40920145E328BA.mp3');
+    var audio455 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BCCF3FEADE584521841E7F316CD5C660.mp3');
+    var audio456 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/24565E533B734C0E9534A948887B588B.mp3');
+    var audio457 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/73A67EC9F8634F21834AED58EDF88060.mp3');
+    var audio458 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0EEF7ACFEFFA4F14A141AA96A16AF5D6.mp3');
+    var audio459 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6E03D0EB5B204E5BB86863B2B80480EA.mp3');
+    var audio460 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A70853F7A5064FAE9CF8E753F70DF0A6.mp3');
+    var audio461 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/65E662D967694561958777FE4BEFE0E2.mp3');
+    var audio462 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/691325C940C5473F99ECC4C02C8476DF.mp3');
+    var audio463 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FA2205E860D646EBA212426C54B4CF48.mp3');
+    var audio464 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B0994C18C6BA4B4ABB380C933697E634.mp3');
+    var audio465 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FEAEBF39A1B64872881B6FB1EF016413.mp3');
+    var audio466 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2881326B41FA42F09EDE882C28159057.mp3');
+    var audio467 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1EF1C148159247FD954072D4BE955D5D.mp3');
+    var audio468 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3F871AD7410842638638CEC78C3A7F8A.mp3');
+    var audio469 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/18E9D48E738F45EFAE7FDC53C3CB5BA2.mp3');
+    var audio470 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7AE9A88A5D9D487C91C24E16A9A83516.mp3');
+    var audio471 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C3A2048C48434AD29D54B49CA64C3E0D.mp3');
+    var audio472 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4AB62730DCDA4185B03D27220DE15842.mp3');
+    var audio473 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6AFACA22DE0343E0846718315575BA0F.mp3');
+    var audio474 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/19A40D37E5CA424DA6FD89DE9B097B76.mp3');
+    var audio475 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F8B7A2195EA84ECE8D79F84798978354.mp3');
+    var audio476 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/90DD19FB77E844EE96FCEB6EB8E4219B.mp3');
+    var audio477 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/17AB2A98749F4F9AABB7910D7CF0B3CE.mp3');
+    var audio478 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8F16F5A44E8D4DF8AE46A6C2A8A9F680.mp3');
+    var audio479 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C3330E608F88462A815636B551BF6031.mp3');
+    var audio480 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/98E94E5497DD408A8002626E16EBA506.mp3');
+    var audio481 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F100F6D750C046F3A4194E00C54D82AF.mp3');
+    var audio482 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F4B6C1109BBC4B33903515B80B81BFFE.mp3');
+    var audio483 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2C80D7614F0C4476A4309431D8B25087.mp3');
+    var audio484 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F8B7EE34368E4E8791AB06750951E694.mp3');
+    var audio485 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B95AED8E153F401F967848B1EB292E78.mp3');
+    var audio486 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/409E6DD87A0D41D7B9501BB33E4144F9.mp3');
+    var audio487 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1DF97D152D704319AD75AF0884E414C6.mp3');
+    var audio488 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0D33737BE5CF4BFB9F3BACE851417854.mp3');
+    var audio489 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9959BA09BA6444928792BE06C221638F.mp3');
+    var audio490 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CBFED636998F4323AC3C324C2498D6CE.mp3');
+    var audio491 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3A9F05549AEB487EA934C95D8C47675A.mp3');
+    var audio492 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0A57CB0047E2471F9593B56D806190FD.mp3');
+    var audio493 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B89FEB442C2A48F0A92B135C9F492B57.mp3');
+    var audio494 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9361B3E1CF4045E2B3567DCCAB73EDE1.mp3');
+    var audio495 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E55091B349D647D99DD7287DB5C67688.mp3');
+    var audio496 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2D925C366F3143B490D36EE320D1280F.mp3');
+    var audio497 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/764EBB1F70344F73959AC7FE72ECE68C.mp3');
+    var audio498 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BF860626A773426F8B2319EDA9134CEA.mp3');
+    var audio499 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C41443EA1862406AAB52DC4991D4EE7B.mp3');
+    var audio500 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5775634AACF54FC1B1F56D2E0DED5329.mp3');
+    var audio501 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2D3354518CA14B61B4364D8E94EC3844.mp3');
+    var audio502 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0A9D5A2A963C4D4E8EEAFD97A385BA89.mp3');
+    var audio503 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C611540B3F7A481BBF09BD2F31E7CBAF.mp3');
+    var audio504 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6113F37088F948058F2ACB1D2079E874.mp3');
+    var audio505 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0DF9422077A640C485118B49C72C5A1C.mp3');
+    var audio506 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FC6991C067A340AAA423EC3FFD9F078C.mp3');
+    var audio507 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F77AA0E3555647B08C9D101352F2E9EC.mp3');
+    var audio508 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/35067203232F49B3815F43AFABF2A0E4.mp3');
+    var audio509 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/216B2EF9C083448A8870F25B049DB45F.mp3');
+    var audio510 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/21A89F8906E2418C9009592E0CA30CE5.mp3');
+    var audio511 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/39187EEA3D1444199ADA3D61A598A21C.mp3');
+    var audio512 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6791B478D38A47DFA7DE979A8058A098.mp3');
+    var audio513 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D01AE02A19E9447D89CB4CBA61DE7489.mp3');
+    var audio514 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C4054EDE06FD4A038710031473CB46C5.mp3');
+    var audio515 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/97D0D94BE74F46C49EC234463169549E.mp3');
+    var audio516 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F252B52DB8C543DB852FB0CB225FB9CE.mp3');
+    var audio517 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F3DEF0F57D854BDDB43A149C0BC86034.mp3');
+    var audio518 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8A7808DEBA734301B5E3296903D4AFB0.mp3');
+    var audio519 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E5F0F019B30B4E6BB511D189ED97E7CF.mp3');
+    var audio520 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BF626E25AADB4EBEA6B1808001282E4C.mp3');
+    var audio521 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/72C038FE15904031B6A56B07334981F2.mp3');
+    var audio522 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CD671C7CCF6248EA89E56829EB390A85.mp3');
+    var audio523 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EDEE3D4D0AF247B389519B160FBFC499.mp3');
+    var audio524 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/94ED423EEB344DAFAD5A1D0A8B483600.mp3');
+    var audio525 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2EFE58AAC6394EBFB3E8DCD7E4D3CA73.mp3');
+    var audio526 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5CC6DB7E579946F4BDF90940F69E4BF6.mp3');
+    var audio527 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/964AF2555C99465E868381681AD37346.mp3');
+    var audio528 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0506744F580F4B2EAAD8D520B68FACFC.mp3');
+    var audio529 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C44D68211F284B95B76ABB3BCE59C20A.mp3');
+    var audio530 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/85437CA2D47F4EF7843C2F46D969B19B.mp3');
+    var audio531 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AEBE58048EAC4E23AD201A61C47501DA.mp3');
+    var audio532 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3DFB6285DBE94A64B8F92D33DBEF43AE.mp3');
+    var audio533 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/05C689A5128C4851BFB7BF95A4FD992C.mp3');
+    var audio534 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5BA7877D2AC54685BB54248099B96634.mp3');
+    var audio535 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E3DF376A16E241FB872F4503F80E3967.mp3');
+    var audio536 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/DC5DD525677C4CEA8D6F5F061EBA3A6C.mp3');
+    var audio537 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2E58FB67939947E8908B3DC18647712F.mp3');
+    var audio538 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/ED2BF625BBEB48EC87A3C7DAED52F9FA.mp3');
+    var audio539 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4AB2128E9BCA4D6FAEAE7DBE1B6CF83D.mp3');
+    var audio540 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/68B46F6693084C2497B77F9E8180473C.mp3');
+    var audio541 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/324AD30BC39A4F3EA703B98D51FA4C03.mp3');
+    var audio542 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7C4B1EC2BE2B40E78FFC75B2FE6B0D0D.mp3');
+    var audio543 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F514D7456E714696B620E40CE363417B.mp3');
+    var audio544 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C7BA34DA8C7C4CC7B40DEE52F2BDD6B2.mp3');
+    var audio545 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/604FA249233B45D78994F49776418DDC.mp3');
+    var audio546 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E45493D3F9BC4DB28817249E89EAF491.mp3');
+    var audio547 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9D8E18923E77473FB14195EAE612D861.mp3');
+    var audio548 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/26C7F770B8B643AA83B0ECE7CBC270A2.mp3');
+    var audio549 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8DFB6D62386248C694EE073A52C38B2D.mp3');
+    var audio550 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/74BF3DD5B89B4DE98AC68DB423C56832.mp3');
+    var audio551 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/213E90DAF0604780A95DEA0DDBB2E913.mp3');
+    var audio552 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FE6C33A28F7640479B2A7F9EDE184D1A.mp3');
+    var audio553 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AF572788507946678C303052E6B5C772.mp3');
+    var audio554 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C0DB974729C94C4AB3B37930284FEAA9.mp3');
+    var audio555 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/DDBF938E58844C7B84B9198A2D732632.mp3');
+    var audio556 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BBDF36A86B344E7B861DE81FA963D6E1.mp3');
+    var audio557 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7BA53BC281CE4D54BCE07D92048D658C.mp3');
+    var audio558 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FB5AA36603ED40FF996F487DB2778480.mp3');
+    var audio559 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2BA1ED3E8CC9483CA8EC39896E2B9BAB.mp3');
+    var audio560 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5809968E5A574FA590F3F36B93805294.mp3');
+    var audio561 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EBCD0B3941D148609EE9EBE8FBA5CBC9.mp3');
+    var audio562 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6D2E10419FDB4695AA5F723BEB3055B4.mp3');
+    var audio563 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D3F89DD7A9294040B234F865226697FE.mp3');
+    var audio564 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7C722DD1F2E54933900520AFAFF40F4C.mp3');
+    var audio565 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D332605E92DF43FC93FFE0317C45AFC9.mp3');
+    var audio566 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FB5C24C8A5B442EF914D3E501E545F60.mp3');
+    var audio567 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EDAFFCE040CE40A4A2044B65AF2EB46C.mp3');
+    var audio568 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9657B13BB5C64A468FF39F73B4175C09.mp3');
+    var audio569 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/662E1B195DD14FBD84D96ED18994DB8D.mp3');
+    var audio570 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CEC394BEF9AF4BE8880321402803A372.mp3');
+    var audio571 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D8B868F759B34294AD94FA3CECF87065.mp3');
+    var audio572 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/68A745BFEAD04765AF0AA81A440AB837.mp3');
+    var audio573 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5E98C61F78984EA498BDB562B0AA6EF7.mp3');
+    var audio574 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/254F6055ED9B4B90921EE6E8D49E6906.mp3');
+    var audio575 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E7E543A84D174B6C912C87A259802135.mp3');
+    var audio576 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/47CF43DDF18F4A79865645EB482345B9.mp3');
+    var audio577 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/32C8022E479843CA80D9C4FEEDD6802E.mp3');
+    var audio578 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F005AFE7203A4A0885ABAE7B562D93AC.mp3');
+    var audio579 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/272D2C75BE464638AB6B3481AD03E227.mp3');
+    var audio580 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/660A7DE21A1C4BE496410E4E117105FF.mp3');
+    var audio581 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CF46077AC86243F1AAFB909A4C0963FC.mp3');
+    var audio582 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D6DC8B3A67A54CE08BF76C48CE70F39A.mp3');
+    var audio583 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E81441838F5442D2AD530C841384FA7D.mp3');
+    var audio584 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/260AF712C4224A1C9B7222A6A3EB342A.mp3');
+    var audio585 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C27A814E41C14D82A68D1B87EF2C230A.mp3');
+    var audio586 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9DFCB254A5F3435CB70641346493C355.mp3');
+    var audio587 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5D6E3689ECF14038BACEB6EE0A010423.mp3');
+    var audio588 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F7CC0CC0DA044858B35786CAA4C316C1.mp3');
+    var audio589 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7EF9E766A14644B091BD2694F50677F5.mp3');
+    var audio590 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2E37FB4747D24982BE2A35A8E08C76C3.mp3');
+    var audio591 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/147B16E28E6D4298B69F83A430CA0C85.mp3');
+    var audio592 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/384F5640153A467FA940CA796B6851BF.mp3');
+    var audio593 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8865DBF1B4FD488F8FC2A650DC3D7030.mp3');
+    var audio594 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8C1642AA82354420A0D52697AADB0A3E.mp3');
+    var audio595 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/497DC39D6CD14F51ADB34D96E81E6E93.mp3');
+    var audio596 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/89B0E0DA066C494AA991A929E51321FF.mp3');
+    var audio597 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/104B470A20A74F0494FFEF2D1F7A942C.mp3');
+    var audio598 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0732F92AF6A24F9DAC4C26CB49AD1A45.mp3');
+    var audio599 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AC10BB7C761442DB99BF73DFAED7858C.mp3');
+    var audio600 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0E2C7D77DEF840B9A6EB971C9760B9DF.mp3');
+    var audio601 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/108BF2C7FB2A49EE9FAD2066C35037AA.mp3');
+    var audio602 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B6A21AB255AF4164A4BB14BEAB72981C.mp3');
+    var audio603 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3FE6B2C8E9CD48B08F120123FBF21C0F.mp3');
+    var audio604 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2F44CBFD633B4FABB8D0DA2F25A8A9DF.mp3');
+    var audio605 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/92D55955F27A4BEFA26C319819EDC6BB.mp3');
+    var audio606 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E045B30AF86541C7B350041F19E0C312.mp3');
+    var audio607 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F79639420CE64B2D847670CDE4657C2F.mp3');
+    var audio608 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/269821A88CB14322AC7D82AA0896FFFC.mp3');
+    var audio609 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/20DDDFEEC0F14B70820F7DB55F822025.mp3');
+    var audio610 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D8040FB731A942A09AF404C45FA38BD7.mp3');
+    var audio611 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0ACE518DB14941D3A7E27E9967367E4D.mp3');
+    var audio612 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/DCCC1E045A3C445FAFEC405798527287.mp3');
+    var audio613 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/191AEF02E2474A13BF8E694B6026DD3C.mp3');
+    var audio614 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0537F53665BA46B58E4E308EAF6C5EFF.mp3');
+    var audio615 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5FBA99D640A94E06AF0336503AF04A36.mp3');
+    var audio616 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8F42E54E42134ADD8A7EFB5CA039BE30.mp3');
+    var audio617 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/946FD08C7A3A40099F8DDC6E55290B9C.mp3');
+    var audio618 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/05C1A98FDA9243F69DF9F93A0A97AD18.mp3');
+    var audio619 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/516B3283366D43B69BEBF47B7E45B6D1.mp3');
+    var audio620 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/932860C42046405987ED0F78048D4118.mp3');
+    var audio621 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4C3A1864AAAC475E9CCAD86679DB5656.mp3');
+    var audio622 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/70F979EC772F412A91FC0651D08B4599.mp3');
+    var audio623 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/04DB545A2E6B4D9E93F8921DC1CDD582.mp3');
+    var audio624 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FB4D7645A62643E981F2BB35F97C8FF9.mp3');
+    var audio625 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0316A203FB0E432DBC93C38AA1BE6183.mp3');
+    var audio626 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/64124F13EC1C4B86AE556280CF3C0857.mp3');
+    var audio627 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EC2B76B35D7343619F93BA44A48E510A.mp3');
+    var audio628 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C24B3678646345DD98DB8DE7913A4FF1.mp3');
+    var audio629 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C02C6E8F5A85471197EF88AE793A2632.mp3');
+    var audio630 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6924FCFADBA3464DB26F2381D26AEB7B.mp3');
+    var audio631 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/882E2EC9724E4D1D80D9E0AB014BE703.mp3');
+    var audio632 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C23B4CAC220F43C0B69F961453BFA11E.mp3');
+    var audio633 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E280D422222E4A0DA19282A3DE0B5D9A.mp3');
+    var audio634 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AC4EB6FABA764B53821149FCA4E1A859.mp3');
+    var audio635 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B8D91019C0F44272A8129B564ED08BE4.mp3');
+    var audio636 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A92A438E5971414D8457265B456EFA65.mp3');
+    var audio637 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A3BFAC1CBAB34F4293EC3E30725865AF.mp3');
+    var audio638 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/16992694AB72444088B8684C636B8E14.mp3');
+    var audio639 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/86BD71D228E94F488A7F041742494A6F.mp3');
+    var audio640 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D8CFE61F93364CAF83C5423181192AAA.mp3');
+    var audio641 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C335AC4E3CB44DF4A29C9FF88BC35DC7.mp3');
+    var audio642 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3EC9E1122DD94405A892D916D12D757F.mp3');
+    var audio643 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4E25C26B656647888A39F299E400E1A5.mp3');
+    var audio644 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A0C017E0D79E4B208A6EE09FD1D2DE9B.mp3');
+    var audio645 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B71A45C1EED145748F1A63B4037937DB.mp3');
+    var audio646 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C977088517A64A4A9A773FEB815CAB6B.mp3');
+    var audio647 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/59E1D0CAFA4540F6BBAF427D44581CBD.mp3');
+    var audio648 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0D4F5DCA27554F6EBDFF92D4F98A6689.mp3');
+    var audio649 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/698599C66B394F3584F162749AF6E349.mp3');
+    var audio650 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/961B67055F214043A4C821861F281FAC.mp3');
+    var audio651 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E7AA9F19D6F747519A2F959498021B48.mp3');
+    var audio652 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D3E468F1A5764BC687EEF8469D7BE479.mp3');
+    var audio653 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F824B0C333964BECBFAEE767DA00F53E.mp3');
+    var audio654 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1BAB6D80D08A4F87B65584BA3BC627F2.mp3');
+    var audio655 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/553C4BECBA5C46AEB92DD559A9E3B7FB.mp3');
+    var audio656 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A9B8A2628AE244D4A4B0DC8138335124.mp3');
+    var audio657 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6E21A0483E21473EB84B452F28EC9F5F.mp3');
+    var audio658 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F51A1F207F214FA694F2E19DCBEC8B1B.mp3');
+    var audio659 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AFC6098E95B54B08BD5E012EBFA3A67B.mp3');
+    var audio660 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/21BDE7B2F95B4D03A3C07C517A420D39.mp3');
+    var audio661 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FBEFDD3417494AD7AC3F050514C7271A.mp3');
+    var audio662 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E6BCF265ECC340FAA1F4ABEE3DF29FA6.mp3');
+    var audio663 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B6BCC6099ADE407293F7624D32999E99.mp3');
+    var audio664 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2BDCEF95735C4CAFBB12538879FDAE4B.mp3');
+    var audio665 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6A1F32ECC6744A4BB6E8371883B45ED3.mp3');
+    var audio666 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6EA03129AEF14913899D613519FC6839.mp3');
+    var audio667 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/37587D7A5D39447987A81811767319A4.mp3');
+    var audio668 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7B8A0D2255034DCA89E69815AF50F793.mp3');
+    var audio669 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/23314BC2B2984B55A70336E98CE5088F.mp3');
+    var audio670 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/24B564393D814336BBC7B490A6435F77.mp3');
+    var audio671 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D507946C75FF474DBDF6EE7EF0811D80.mp3');
+    var audio672 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CE29A7D7F23F4297BB6994ABB425BC50.mp3');
+    var audio673 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/88F532F89FAB4A9F8CFA8DC94223021F.mp3');
+    var audio674 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/236BA81B02364FC698AEDD86C069884E.mp3');
+    var audio675 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9DFEB406D9F74A6D88A5EC8DE56C3E5B.mp3');
+    var audio676 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1CED9B11DA8649B3B11E551B585B7F18.mp3');
+    var audio677 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/979E35C80CC24680B674CA17599DD7DA.mp3');
+    var audio678 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3FD9F1DD134B482B9DA5961504AE65DB.mp3');
+    var audio679 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/83C143D9B3C542D0A60C554E48AFB911.mp3');
+    var audio680 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E4F680CEA1654F738B60D6B20E93E7F1.mp3');
+    var audio681 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/50D7C0E993D246548F7BB82F9BFB8EBF.mp3');
+    var audio682 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A6CB22EB9FF041C9AC0825B2D63056F0.mp3');
+    var audio683 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B2A2B18B4FFD48B3811155B812B32340.mp3');
+    var audio684 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/226768688722407FB6503F3B9FE31CB6.mp3');
+    var audio685 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/58ABB4FBAC2A49D5B98E82BCE57FF215.mp3');
+    var audio686 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6045EB642208434E974CC19983741E06.mp3');
+    var audio687 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2833F9CA5264496EB04E2B4CBCAA396D.mp3');
+    var audio688 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2B413F9732844080AFBC64891C225F11.mp3');
+    var audio689 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A709C3C96C85456B9349FBE2356CE4EA.mp3');
+    var audio690 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D51D1060653C4B1B9D64BEEFF3A29864.mp3');
+    var audio691 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C6E0ACFFDB7D419784C245706EC89C81.mp3');
+    var audio692 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5ED763A265A24806A19F4097E0F0EADA.mp3');
+    var audio693 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/794A63D6BBCB4D7CB2A07E937634BEEE.mp3');
+    var audio694 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/49B04C65C58C4217B1A664BEBD6543FD.mp3');
+    var audio695 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AB2279C30B9142D2950BDDE300743F7D.mp3');
+    var audio696 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/25692136D1A449FF86FAB63BD865FBB1.mp3');
+    var audio697 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D76D0FED65694E308BAC0A14F652640E.mp3');
+    var audio698 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/DFA284DED18844FBB0DA3E1EBC2D5169.mp3');
+    var audio699 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/781A65F40FF94F498B39E629C74EA666.mp3');
+    var audio700 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/504E03431B194B28B6FF7D6DC1B6314D.mp3');
+    var audio701 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/92B1BB8AC66F4C82B6AA025A4AD9A916.mp3');
+    var audio702 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F57A991B1B01490BA615BA4C4EA3B02D.mp3');
+    var audio703 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/06A001217BE54F51B654A66DBB81C61F.mp3');
+    var audio704 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/206F289EFBF94579BF681564618EEA29.mp3');
+    var audio705 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E33504F7A9504D7C9F3A9465D0D78C62.mp3');
+    var audio706 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F63FF69068894157A45B3534B35A5865.mp3');
+    var audio707 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/260455CA69E44ED18FD58FBC5D59980A.mp3');
+    var audio708 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3B66CA7AF57546C8AE386DDB423ED6EC.mp3');
+    var audio709 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7F2616435EF44F3EBF9C4407CD392DDD.mp3');
+    var audio710 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F93B049BB80941FF93C58C7FDD4620C2.mp3');
+    var audio711 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/54656C8E9D4940C188D02E128E83387D.mp3');
+    var audio712 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/8C2E4F0FBABC4A9F821A5B499BE418F1.mp3');
+    var audio713 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C996225E9D954075B9F1EB542B5CC05C.mp3');
+    var audio714 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E1B8F4BC4FC0442E800EB1ED8EB9B656.mp3');
+    var audio715 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/020C6907DC594084A5DA8CECBB43F4FE.mp3');
+    var audio716 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9CFACC6BDE644CABA34B18B1476B1134.mp3');
+    var audio717 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/33B570A2A90E43BB9D4D785DC8370867.mp3');
+    var audio718 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F1BACE35D944472AB8A7BB7B82889BE6.mp3');
+    var audio719 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7DE9A047C6FF4358A59BF2E4E6D6C539.mp3');
+    var audio720 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D2E252A686C54313995A022DAE71C209.mp3');
+    var audio721 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C570267C320E485FAC8C898B6FC2A2E0.mp3');
+    var audio722 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/32904DEB1BA74B1198A96FE7C1A45034.mp3');
+    var audio723 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/507207AE974D4EB2B6CDC75606EFF10D.mp3');
+    var audio724 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4D6CB101A27B4490B7CBBEBE87DE9265.mp3');
+    var audio725 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B6BA3E7D91AD4C8BA8CA681ADA71E3B5.mp3');
+    var audio726 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FF0290894AAC43568A86E758769B854D.mp3');
+    var audio727 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/63670634AFF3455A95B35F044EFF387B.mp3');
+    var audio728 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2B8E4C0471DC4285951ACCA1C31C2871.mp3');
+    var audio729 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D868D2295CE94E16AA3AC44B37B88EBD.mp3');
+    var audio730 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C02BA12C764B4DF5AC48745E0691FC25.mp3');
+    var audio731 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/72E4BDA53B044F828794AAFB6E2DDD58.mp3');
+    var audio732 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AFD7F0F361CA436B9B3234098F415591.mp3');
+    var audio733 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EAFB8642D76C404BA6EF971BCCC374E1.mp3');
+    var audio734 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2E635D1A24FA4A01BCB540F778F4EEAD.mp3');
+    var audio735 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/30EF44AF19FC45CAAF1A7EF20F82531D.mp3');
+    var audio736 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D4611F31FB0E4773935C8DDB24419E62.mp3');
+    var audio737 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B32B1E13238F43F9B516B29BCBA27825.mp3');
+    var audio738 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F23690F19E5E4EABBAB91465429A8475.mp3');
+    var audio739 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5540EC316D1D4B8CABA68D9D27D7A9F7.mp3');
+    var audio740 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FD21CF5AF3E04FE98281E84A485CC219.mp3');
+    var audio741 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F5DB48A31E0E432C85053725AB63CB67.mp3');
+    var audio742 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A8339FB334F74F67BE70CE7876C7C7ED.mp3');
+    var audio743 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EEEC006DC06E4CDFAE1F4BE3C8B4C15A.mp3');
+    var audio744 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E9F996C818874652A5F1C3F83CF978D9.mp3');
+    var audio745 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7B4CEA7FEAEC4CC79875CFD02017C20C.mp3');
+    var audio746 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6B4F86F830264DA1B332920C60012285.mp3');
+    var audio747 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2F46730CF41A4282AF6C79993655896A.mp3');
+    var audio748 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2F59A7656BF7416AB45F61FF4DEE1256.mp3');
+    var audio749 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3938289DEB984A9C8D01C4B3313CB67C.mp3');
+    var audio750 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9140E263AB0A4E02A9B6CA733DB6564A.mp3');
+    var audio751 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C2E2670D71CD4CD0A2E6C3EFC74E51D4.mp3');
+    var audio752 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/5C934261EB40492B86DA148423D016B3.mp3');
+    var audio753 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A5EC200856A34F18B33B60DCF71C4AA2.mp3');
+    var audio754 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CB9C3DC6CA53443F8BAB4513962D1E0F.mp3');
+    var audio755 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/92DE7F3B79044B9F9B88DE3D833BECB3.mp3');
+    var audio756 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1F8EDEA842E148968D4F3C311DA7A2B0.mp3');
+    var audio757 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3DBD90383AAC4E89A266117F79BBF32F.mp3');
+    var audio758 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0EC0CAA3F3F741FC80230780C58C70A1.mp3');
+    var audio759 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CA4B5A4D7B8948DBB81155CDB56D2EE8.mp3');
+    var audio760 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CA5B86E714D8456DAD328B2B297FACBF.mp3');
+    var audio761 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A86682AB3CBD4420A478359288A039D7.mp3');
+    var audio762 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/28A0A2D5F0764F3D80A553C11DBF8350.mp3');
+    var audio763 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B9A03A02D9B444B086661295DCE2E304.mp3');
+    var audio764 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/A32B5760C7154167B24711F680FB958F.mp3');
+    var audio765 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6B3CF323896B4010AF1C81F2FD7EBBD8.mp3');
+    var audio766 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/790A809A7270446EA4C63EA191B20C94.mp3');
+    var audio767 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/941984BEDEE144E499C70CA9AF9266B1.mp3');
+    var audio768 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2F14EE7D04464D44BC17BD92F60A9668.mp3');
+    var audio769 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/7273F50A27724093B197A9BB1CD45E94.mp3');
+    var audio770 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D12FE014E2F043DC88E743A2873D1B7D.mp3');
+    var audio771 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B9A8561A2C37413A96FA9403AFE3E411.mp3');
+    var audio772 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/43E4BCFC92E64B948E8B78C96D404D64.mp3');
+    var audio773 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3E56B255842C43DC976C5906B89C8742.mp3');
+    var audio774 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4AED05804E1A4AAEAA58EE0D9263C08B.mp3');
+    var audio775 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/249C604DD25D4642AAE589CE06738259.mp3');
+    var audio776 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BF864370C5A44DAA861AF88774401062.mp3');
+    var audio777 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/FE276E83F59E4B3D9A6A4D0AD58CB4E5.mp3');
+    var audio778 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F2813CA0FEB94CCBADB468053825572F.mp3');
+    var audio779 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/08182A64C9BF490390A12F0C1FAD39BB.mp3');
+    var audio780 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B6918FA5661B444F80658E53667EF971.mp3');
+    var audio781 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/87FD2BDAEA29471BA5893895A55280E8.mp3');
+    var audio782 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2DC263C7D5CE4BACA0AB0C368E7C9329.mp3');
+    var audio783 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C1C82BCD47EB42DBAC1C0A724D595EC0.mp3');
+    var audio784 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/579D00F496A44D0B8434AF5E13D5B480.mp3');
+    var audio785 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1640866873C24682B52784ACBC2F2350.mp3');
+    var audio786 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/CE02E8EBE71148829DBC4137E8FDD02E.mp3');
+    var audio787 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/12545402F2AE4FAC839C40318B2067FC.mp3');
+    var audio788 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/ABAD0C4D0AD14D20B56139900F9BDABD.mp3');
+    var audio789 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/09468167DBB742D6A1374F9D2E230F22.mp3');
+    var audio790 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/50D842FA03074FAA836780B1FD0E0630.mp3');
+    var audio791 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D62C1F6C570346F9A7CAE467131BC63B.mp3');
+    var audio792 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/2030A51CD7CE412AA8AAD612C7BDF64A.mp3');
+    var audio793 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E8E2482CFBF04B88A9625308251CB523.mp3');
+    var audio794 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/09B4EB05DDA74D2B9A551750C7BBEFCE.mp3');
+    var audio795 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/694A0E0E83934EEB935B07A1886AE040.mp3');
+    var audio796 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/96A4702EF98D49D1AB0F807FD021979E.mp3');
+    var audio797 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/6974F59E33C248549392E7A8BD16BD20.mp3');
+    var audio798 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/1BCDA6B09FCB4ECAAB2B68E47EDF3A29.mp3');
+    var audio799 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/B82B205FE47447B08CBEC9355413769E.mp3');
+    var audio800 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4BA2CDE0BF2E43EEB5D74FD6A242EE12.mp3');
+    var audio801 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/C1A3EFA2BD99460BBD3FED1BA4BCE024.mp3');
+    var audio802 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/45661808AC9B41668774AC4E8D51FFF2.mp3');
+    var audio803 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/472801DC9686413B93E5BC14A3C57AEC.mp3');
+    var audio804 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/295195F321414E9187C992EADBFF8AD8.mp3');
+    var audio805 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/AAE47871C77A4507AF227A5433F5F461.mp3');
+    var audio806 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/643D98EFBBEB435CAA997A25F044D118.mp3');
+    var audio807 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E1DFA4AC319A463B93483DB30B40863B.mp3');
+    var audio808 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/EBDE6093BC784E42BD749BD23F93AF20.mp3');
+    var audio809 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BA040BCCB1954F24ACEF7E039E1BF125.mp3');
+    var audio810 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/29D1C8F7C84449EE82668BBE8093BA84.mp3');
+    var audio811 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/90DA3C367D654E9BAA352E6C8F64FED6.mp3');
+    var audio812 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0A4F252A9F9B4EC499264468A69A7853.mp3');
+    var audio813 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/231A2EE4052349A9B30818A93C052512.mp3');
+    var audio814 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/4CFD9AA94AA1457C86EEC0B1A95FB9F1.mp3');
+    var audio815 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/31CB14C1B1204113ABA907309F0D5746.mp3');
+    var audio816 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/018ECC073C0346978C8C54EF925144D0.mp3');
+    var audio817 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/9FC7C04332C644DD9C21BA4A2D87B582.mp3');
+    var audio818 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/0318BFAB461B4692991013BFF2569E13.mp3');
+    var audio819 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/BC7C0A72015C45068A354E5CED17C6F6.mp3');
+    var audio820 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/F28E538423DF45ADADE02E8BE71F0652.mp3');
+    var audio821 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/3653E58FEDA6427EBCFDA12A7E29A12D.mp3');
+    var audio822 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/D04498C5826E406CB085F975E1916A93.mp3');
+    var audio823 = new Audio('https://nuri.iksi.or.kr/nuri/att_files/cms/2021/06/05/E6E2D9D4ACCC495189B520F7B0A495AD.mp3');
+  </script>       
+</head>
+<body>
+    <h1>Korean Basic Vocabulary Learning Dictionary</h1>
+    <nav>
+        <a onclick="location.href='#1';"><input type="radio" id="tab1" name="tabm" checked><label for="tab1">ㄱ</label></a><a onclick="location.href='#2';"><input type="radio" id="tab2" name="tabm"><label for="tab2">ㄴ</label></a><a onclick="location.href='#3';"><input type="radio" id="tab3" name="tabm"><label for="tab3">ㄷ</label></a><a onclick="location.href='#4';"><input type="radio" id="tab4" name="tabm"><label for="tab4">ㄹ</label></a><a onclick="location.href='#5';"><input type="radio" id="tab5" name="tabm"><label for="tab5">ㅁ</label></a><a href=""><input type="radio" id="tab6" name="tabm" disabled><label for="tab6" class="nul">ㅂ</label></a><a href=""><input type="radio" id="tab7" name="tabm" disabled><label for="tab7" class="nul">ㅅ</label></a><a href=""><input type="radio" id="tab8" name="tabm" disabled><label for="tab8" class="nul">ㅇ</label></a><a href=""><input type="radio" id="tab9" name="tabm" disabled><label for="tab9" class="nul">ㅈ</label></a><a href=""><input type="radio" id="tab10" name="tabm" disabled><label for="tab10" class="nul">ㅊ</label></a><a href=""><input type="radio" id="tab11" name="tabm" disabled><label for="tab11" class="nul">ㅋ</label></a><a href=""><input type="radio" id="tab12" name="tabm"><label for="tab12" class="nul">ㅌ</label></a><a href=""><input type="radio" id="tab13" name="tabm"><label for="tab13" class="nul">ㅍ</label></a><a href=""><input type="radio" id="tab14" name="tabm"><label for="tab14" class="nul">ㅎ</label></a>
+    </nav>
+    <section class="consonant" id="1">
+        <h2>ㄱ</h2>
+        <dl>
+            <dt>가게<i class="noun">noun</i><p class="eng">shop; store</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio001.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio001.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">작은 규모로 물건을 펼쳐 놓고 파는 집.<p class="eng">A place where products are displayed and sold on a small scale.</p></dd>
+            <dd class="exm"><b>가게</b>에 가다.<p class="eng">to go to the store.</p></dd>
+        </dl>
+        <dl>
+            <dt>가격<i class="noun">noun</i><p class="eng">price</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio003.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio003.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">물건의 가치를 돈으로 나타낸 것.<p class="eng">A value amount for something that is for sale.</p></dd>
+            <dd class="exm"><b>가격</b>이 비싸다.<p class="eng">The price is expensive.</p></dd>
+        </dl>
+        <dl>
+            <dt>가구<i class="noun">noun</i><p class="eng">furniture</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio005.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio005.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">집 안에서 쓰이는 침대, 옷장, 식탁 등과 같은 도구.<p class="eng">Objects used in a house such as a bed, chest, table, etc.</p></dd>
+            <dd class="exm">방에 <b>가구</b>를 놓다.<p class="eng">to go to the store.</p></dd>
+        </dl>
+        <dl>
+            <dt>가까이<i class="adverb">adverb</i><p class="eng">closely</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio007.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio007.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">거리가 멀지 않게.<p class="eng">Not far.</p></dd>
+            <dd class="exm"><b>가까이</b> 다가오다<p class="eng">to draw close.</p></dd>
+        </dl>
+        <dl>
+            <dt>가깝다<i class="adjective">adjective</i><p class="eng">near; close</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio009.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio009.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어느 한 곳에서 멀리 떨어져 있지 않다.<p class="eng">Not far from a certain location.</p></dd>
+            <dd class="exm">거리가 <b>가깝다</b>.<p class="eng">to be close in distance.</p></dd>
+        </dl>
+        <dl>
+            <dt>가꾸다<i class="verb">verb</i><p class="eng">cultivate; grow</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio002.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio002.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">식물이 잘 자라도록 보살피다.<p class="eng">To take care of plants so that they can grow well.</p></dd>
+            <dd class="exm">정원을 <b>가꾸다</b>.<p class="eng">to tend the garden.</p></dd>
+        </dl>
+        <dl>
+            <dt>가끔<i class="adverb">adverb</i><p class="eng">sometimes</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio004.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio004.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어쩌다가 한 번씩.<p class="eng">Once in a while.</p></dd>
+            <dd class="exm"><b>가끔</b> 하늘을 보다.<p class="eng">to sometimes look at the sky.</p></dd>
+        </dl>
+        <dl>
+            <dt>가난<i class="noun">noun</i><p class="eng">poverty; want</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio006.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio006.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">돈이 없어서 생활이 어려움. 또는 그런 상태.<p class="eng">One’s state of having insufficient money or this state itself.</p></dd>
+            <dd class="exm"><b>가난</b>을 겪다.<p class="eng">to su󽗈er poverty.</p></dd>
+        </dl>
+        <dl>
+            <dt>가늘다<i class="adjective">adjective</i><p class="eng">thin</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio008.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio008.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">물체의 너비가 좁거나 굵기가 얇으면서 길다.<p class="eng">An object having a narrow width or being thin and long.</p></dd>
+            <dd class="exm">손가락이 <b>가늘다</b>.<p class="eng">One’s 󽗉ngers are slender.</p></dd>
+        </dl>
+        <dl>
+            <dt>가능성<i class="noun">noun</i><p class="eng">possibility; chance</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio010.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio010.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어떤 일이 앞으로 이루어질 수 있는 성질.<p class="eng">The extent to which something can happen.</p></dd>
+            <dd class="exm">성공 <b>가능성</b>이 높다.<p class="eng">There is a high chance of success.</p></dd>
+        </dl>
+        <dl>
+            <dt>가다<i class="verb">verb</i><p class="eng">go; travel</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio011.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio011.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">한 곳에서 다른 곳으로 장소를 이동하다.<p class="eng">To move from one place to another place.</p></dd>
+            <dd class="exm">식당에 <b>가다</b>.<p class="eng">to go to the restaurant.</p></dd>
+        </dl>
+        <dl>
+            <dt>가득<i class="adverb">adverb</i><p class="eng">full</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio013.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio013.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">양이나 수가 정해진 범위에 꽉 찬 모양.<p class="eng">In a quantity or amount that reaches full capacity.</p></dd>
+            <dd class="exm">사람이 지하철에 <b>가득</b> 차다.<p class="eng">The subway is full of people.</p></dd>
+        </dl>
+        <dl>
+            <dt>가득하다<i class="adjective">adjective</i><p class="eng">full; brimful</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio015.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio015.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">양이나 수가 정해진 범위에 꽉 차 있다.<p class="eng">A quantity or number being full to the limit.</p></dd>
+            <dd class="exm">물이 그릇에 <b>가득하다</b>.<p class="eng">The bowl is full of water.</p></dd>
+        </dl>
+        <dl>
+            <dt>가득히<i class="adverb">adverb</i><p class="eng">being full of</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio012.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio012.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">빈 곳이 없을 정도로 무엇이 많은 모양.<p class="eng">In such a large amount that there is no empty space.</p></dd>
+            <dd class="exm">달걀을 바구니에 <b>가득히</b> 담다.<p class="eng">to fill the basket with eggs.</p></dd>
+        </dl>
+        <dl>
+            <dt>가라앉다<i class="verb">verb</i><p class="eng">sink; settle</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio014.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio014.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">물 등에 떠 있거나 섞여 있는 것이 아래쪽으로 내려가다.<p class="eng">For something on the surface of or in the midst of water, etc., to go down to the bottom.</p></dd>
+            <dd class="exm">돌이 바닥에 <b>가라앉다</b>.<p class="eng">The rock sinks to the bottom.</p></dd>
+        </dl>
+        <dl>
+            <dt>가렵다<i class="adjective">adjective</i><p class="eng">itchy</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio016.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio016.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">살갗을 긁고 싶은 느낌이 있다.<p class="eng">Feeling like to scratch one’s skin.</p></dd>
+            <dd class="exm">몸이 <b>가렵다</b>.<p class="eng">One’s body itches.</p></dd>
+        </dl>
+        <dl>
+            <dt>가로<i class="noun">noun</i><p class="eng">width; crosswise direction</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio017.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio017.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">왼쪽에서 오른쪽으로 이어지는 방향. 또는 그 길이.<p class="eng">A horizontal direction or the width from left to right.</p></dd>
+            <dd class="exm"><b>가로</b> 길이가 더 길다.<p class="eng">The width is longer.</p></dd>
+        </dl>
+        <dl>
+            <dt>가로등<i class="noun">noun</i><p class="eng">streetlamp</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio019.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio019.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어둠을 밝히기 위하여 길에 설치한 등.<p class="eng">A lamp set up on a street to light up the dark.</p></dd>
+            <dd class="exm"><b>가로등</b>이 켜지다.<p class="eng">The streetlamp turns on.</p></dd>
+        </dl>
+        <dl>
+            <dt>가로막다<i class="verb">verb</i><p class="eng">block; be in the way</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio021.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio021.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">앞을 막아 통하거나 지나지 못하게 하다.<p class="eng">To stand in the way so as to keep someone or something from going by or passing through.</p></dd>
+            <dd class="exm">길을 <b>가로막다</b>.<p class="eng">to block the road.</p></dd>
+        </dl>
+        <dl>
+            <dt>가루<i class="noun">noun</i><p class="eng">powder</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio023.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio023.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">단단한 물체가 아주 잘게 부스러지거나 갈린 것.<p class="eng">A very small grain of something hard, as a result of grinding or pounding it.</p></dd>
+            <dd class="exm">쌀을 갈아서 <b>가루</b>로 만들다.<p class="eng">to grind the rice into powder.</p></dd>
+        </dl>
+        <dl>
+            <dt>가르다<i class="verb">verb</i><p class="eng">cut; divide</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio025.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio025.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">잘라서 열거나 여러 개가 되게 하다.<p class="eng">To cut something open or make it into several pieces.</p></dd>
+            <dd class="exm">수박을 칼로 <b>가르다</b>.<p class="eng">One’s body itches.</p></dd>
+        </dl>
+        <dl>
+            <dt>가르치다<i class="verb">verb</i><p class="eng">teach; instruct</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio018.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio018.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">지식이나 기술 등을 설명해서 익히게 하다.<p class="eng">To explain knowledge or skills to help someone understand it.</p></dd>
+            <dd class="exm">한국어를 <b>가르치다</b>.<p class="eng">to teach the Korean language.</p></dd>
+        </dl>
+        <dl>
+            <dt>가리다(1)<i class="verb">verb</i><p class="eng">distinguish; discriminate</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio020.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio020.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">잘잘못이나 좋고 나쁨 등과 같은 기준에 따라 구분하거나 나누다.<p class="eng">To sort out or divide things according to a certain standard such as right or wrong, good or bad, etc.</p></dd>
+            <dd class="exm">남녀노소 <b>가릴</b> 것 없이.<p class="eng">One’s body itches.</p></dd>
+        </dl>
+        <dl>
+            <dt>가리다(2)<i class="verb">verb</i><p class="eng">block; shield</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio022.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio022.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">막거나 감추어 보이거나 통하지 않게 하다.<p class="eng">To block or hide something so as to prevent it from being visible or connected to something else.</p></dd>
+            <dd class="exm">눈을 <b>가리다</b>.<p class="eng">to shield one’s eyes.</p></dd>
+        </dl>
+        <dl>
+            <dt>가리키다<i class="verb">verb</i><p class="eng">point; gesture</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio024.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio024.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">손가락이나 물건을 어떤 방향이나 대상으로 향하게 하여 다른 사람에게 그것을 알게 하다.<p class="eng">To point a finger or some other thing in a certain direction or toward a certain object to let others recognize it.</p></dd>
+            <dd class="exm">손가락으로 학교를 <b>가리키다</b>.<p class="eng">to point at the school with one’s finger.</p></dd>
+        </dl>
+        <dl>
+            <dt>가만<i class="adverb">adverb</i><p class="eng">indifferently</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio026.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio026.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">일을 해결하기 위한 어떠한 대책이나 노력 없이.<p class="eng">Without any action or effort to solve something.</p></dd>
+            <dd class="exm"><b>가만</b> 놔두다.<p class="eng">to leave alone.</p></dd>
+        </dl>
+        <dl>
+            <dt>가만히<i class="adverb">adverb</i><p class="eng">indifferently</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio028.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio028.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">일을 해결하기 위한 어떠한 대책이나 노력 없이.<p class="eng">Without anyaction or effort to solve something.</p></dd>
+            <dd class="exm"><b>가만히</b> 있다.<p class="eng">to stay still.</p></dd>
+        </dl>
+        <dl>
+            <dt>가뭄<i class="noun">noun</i><p class="eng">drought</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio030.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio030.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">오랫동안 비가 오지 않는 날씨.<p class="eng">A weather condition with no rain for a long time.</p></dd>
+            <dd class="exm"><b>가뭄</b>이 들다.<p class="eng">There is a drought.</p></dd>
+        </dl>
+        <dl>
+            <dt>가방<i class="noun">noun</i><p class="eng">bag</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio032.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio032.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">물건을 넣어 손에 들거나 어깨에 멜 수 있게 만든 것.<p class="eng">A container for storing a person’s belongings, which can be held with a hand or hung on a shoulder.</p></dd>
+            <dd class="exm"><b>가방</b>을 어깨에 매다.<p class="eng">to put a bag over one’s shoulder.</p></dd>
+        </dl>
+        <dl>
+            <dt>가볍다<i class="adjective">adjective</i><p class="eng">light</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio027.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio027.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">무게가 적다.<p class="eng">Weighing little.</p></dd>
+            <dd class="exm">짐이 <b>가볍다</b>.<p class="eng">The luggage is light.</p></dd>
+        </dl>
+        <dl>
+            <dt>가사<i class="noun">noun</i><p class="eng">lyrics</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio029.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio029.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">음악에 붙여 부르는 말.<p class="eng">Words written to music.</p></dd>
+            <dd class="exm">노래 <b>가사</b>를 외우다.<p class="eng">to memorize the lyrics to a song.</p></dd>
+        </dl>
+        <dl>
+            <dt>가수<i class="noun">noun</i><p class="eng">singer</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio031.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio031.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">노래하는 일을 직업으로 하는 사람.<p class="eng">A person whose job it is to sing.</p></dd>
+            <dd class="exm"><b>가수</b>가 되다.<p class="eng">to become a singer.</p></dd>
+        </dl>
+        <dl>
+            <dt>가스<i class="noun">noun</i><p class="eng">gas</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio033.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio033.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">연료로 사용하는 기체.<p class="eng">Gas used as fuel.</p></dd>
+            <dd class="exm"><b>가스</b>를 끄다.<p class="eng">to turn off the gas.</p></dd>
+        </dl>
+        <dl>
+            <dt>가슴<i class="noun">noun</i><p class="eng">chest</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio034.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio034.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">인간이나 동물의 목과 배 사이에 있는 몸의 앞 부분.<p class="eng">The front part of a human or animal’s body, between the neck and the abdomen.</p></dd>
+            <dd class="exm"><b>가슴</b>이 넓다.<p class="eng">One’s chest is wide.</p></dd>
+        </dl>
+        <dl>
+            <dt>가습기<i class="noun">noun</i><p class="eng">humidifier</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio035.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio035.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">수증기를 내어 방 안의 습도를 조절하는 기구.<p class="eng">A device making water vapor to adjust room humidity.</p></dd>
+            <dd class="exm"><b>가습기</b>를 켜다.<p class="eng">to turn on the humidifier.</p></dd>
+        </dl>
+        <dl>
+            <dt>가요<i class="noun">noun</i><p class="eng">Korean popular song</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio037.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio037.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">많은 사람들이 즐겨 부르는 노래.<p class="eng">Songs many Koreans enjoy singing.</p></dd>
+            <dd class="exm"><b>가요</b>를 부르다.<p class="eng">to sing a popular song.</p></dd>
+        </dl>
+        <dl>
+            <dt>가운데<i class="noun">noun</i><p class="eng">center; middle</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio039.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio039.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">한 공간이나 사물의 모든 끝에서 거의 같은 거리로 떨어져 있는 부분.<p class="eng">A point that is almost equally distant from all ends of an object or within a space.</p></dd>
+            <dd class="exm">식탁 <b>가운데</b>에 꽃을 놓다.<p class="eng">to place flowers in the middle of the table.</p></dd>
+        </dl>
+        <dl>
+            <dt>가위<i class="noun">noun</i><p class="eng">scissors</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio036.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio036.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">종이나 천, 머리카락 등을 자르는 도구.<p class="eng">A tool for cutting paper, fabric, hair, etc.</p></dd>
+            <dd class="exm"><b>가위</b>로 종이를 자르다.<p class="eng">to cut the paper with scissors.</p></dd>
+        </dl>
+        <dl>
+            <dt>가을<i class="noun">noun</i><p class="eng">fall</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio038.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio038.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">네 계절 중의 하나로 여름과 겨울 사이의 계절.<p class="eng">One of four seasons which comes between summer and winter.</p></dd>
+            <dd class="exm"><b>가을</b>을 좋아하다.<p class="eng">to like the fall.</p></dd>
+        </dl>
+        <dl>
+            <dt>가입<i class="noun">noun</i><p class="eng">joining; signing up</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio040.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio040.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">단체에 들어가거나 상품 및 서비스를 받기 위해 계약을 함.<p class="eng">The act of joining a group or signing up for goods and services.</p></dd>
+            <dd class="exm">회원 <b>가입</b>.<p class="eng">to sign up as a member.</p></dd>
+        </dl>
+        <dl>
+            <dt>가입자<i class="noun">noun</i><p class="eng">member; subscriber</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio041.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio041.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">단체나 조직에 들어가거나 상품 및 서비스 계약을 한 사람.<p class="eng">A person who joins a group or organization, or who signs a contract to use a product or service.</p></dd>
+            <dd class="exm">신규 <b>가입자</b>.<p class="eng">a new member.</p></dd>
+        </dl>
+        <dl>
+            <dt>가장(1)<i class="noun">noun</i><p class="eng">head of a household</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio043.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio043.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">한 가족을 대표하고 책임지는 사람. 주로 집안의 남자 어른.<p class="eng">A person who represents and takes charge of the family, usually the eldest male of the family.</p></dd>
+            <dd class="exm">한 집안의 <b>가장</b>이 되다.<p class="eng">to become the head of the household.</p></dd>
+        </dl>
+        <dl>
+            <dt>가장(2)<i class="adverb">adverb</i><p class="eng">best</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio045.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio045.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">여럿 가운데에서 제일로.<p class="eng">In a way that is better than any other.</p></dd>
+            <dd class="exm">계절 중에서 가을이 <b>가장</b> 좋다.<p class="eng">Fall is my favorite season.</p></dd>
+        </dl>
+        <dl>
+            <dt>가전제품<i class="noun">noun</i><p class="eng">household appliances</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio047.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio047.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">가정에서 사용하는 전기 기구.<p class="eng">Electronic appliances used in the house.</p></dd>
+            <dd class="exm"><b>가전제품</b>을 구매하다.<p class="eng">to purchase a household appliance.</p></dd>
+        </dl>
+        <dl>
+            <dt>가정(1)<i class="noun">noun</i><p class="eng">home; family</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio048.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio048.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">한 가족으로 이루어진 공동체나 그들이 생활하는 집.<p class="eng">A community consisting of family members or the house they live in.</p></dd>
+            <dd class="exm"><b>가정</b>을 이루다.<p class="eng">to start a family.</p></dd>
+        </dl>
+        <dl>
+            <dt>가정(2)<i class="noun">noun</i><p class="eng">assumption; supposition</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio042.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio042.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">사실이 아니거나 사실인지 아닌지 분명하지 않은 것을 임시로 받아들임.<p class="eng">The act of temporarily accepting something that is not true, or of which the truth is.</p></dd>
+            <dd class="exm"><b>가정</b>을 세우다.<p class="eng">to make an assumption.</p></dd>
+        </dl>
+        <dl>
+            <dt>가져가다<i class="verb">verb</i><p class="eng">bring</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio044.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio044.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어떤 물건을 챙겨 가다.<p class="eng">To bring along an object.</p></dd>
+            <dd class="exm">우산을 <b>가져가다</b>.<p class="eng">to take an umbrella.</p></dd>
+        </dl>
+        <dl>
+            <dt>가족<i class="noun">noun</i><p class="eng">family</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio046.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio046.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">주로 한 집에 모여 살고 결혼이나 부모, 자식, 형제 등의 관계로 이루어진 사람들의 집단. 또는 그 구성원.<p class="eng">A group of people who mainly live together in the same house and are related by marriage or as parents, children, siblings, etc., or the members of such a group.</p></dd>
+            <dd class="exm">우리 <b>가족</b>.<p class="eng">our family.</p></dd>
+        </dl>
+        <dl>
+            <dt>가죽<i class="noun">noun</i><p class="eng">leather</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio049.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio049.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">동물의 몸에서 벗겨 낸 껍질을 가공한 물건.<p class="eng">The product made by processing the skin peeled from an animal’s body.</p></dd>
+            <dd class="exm"><b>가죽</b> 재킷.<p class="eng">leather jacket.</p></dd>
+        </dl>
+        <dl>
+            <dt>가지(1)<i class="noun">noun</i><p class="eng">branch; sprig</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio050.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio050.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">나무나 풀의 큰 줄기에서 갈라져 나간 작은 줄기.<p class="eng">A small twig broken off from a branch of a tree or blade of grass.</p></dd>
+            <dd class="exm"><b>가지</b>를 꺽다.<p class="eng">to break a branch.</p></dd>
+        </dl>
+        <dl>
+            <dt>가지(2)<i class="noun">noun</i><p class="eng">kind; sort</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio052.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio052.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">사물의 종류를 헤아리는 말.<p class="eng">A bound noun used to indicate the type of a thing.</p></dd>
+            <dd class="exm">두 <b>가지</b> 음식.<p class="eng">two kinds of food.</p></dd>
+        </dl>
+        <dl>
+            <dt>가지다<i class="verb">verb</i><p class="eng">have; hold</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio054.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio054.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">무엇을 손에 쥐거나 몸에 지니다.<p class="eng">To carry or keep something, or hold it in one’s hands.</p></dd>
+            <dd class="exm">사진을 <b>가지고</b> 있다.<p class="eng">to have a photo with one.</p></dd>
+        </dl>
+        <dl>
+            <dt>가짜<i class="noun">noun</i><p class="eng">fake; forgery</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio056.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio056.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">진짜처럼 꾸몄지만 진짜가 아닌 것.<p class="eng">Something which is made to look real, but is not real.</p></dd>
+            <dd class="exm"><b>가짜</b> 보석을 사다.<p class="eng">to buy a fake jewel.</p></dd>
+        </dl>
+        <dl>
+            <dt>가치<i class="noun">noun</i><p class="eng">value</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio058.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio058.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">값이나 귀중한 정도.<p class="eng">Price or the degree of valuableness.</p></dd>
+            <dd class="exm">상품 <b>가치</b>가 높다.<p class="eng">The product is valuable.</p></dd>
+        </dl>
+        <dl>
+            <dt>가치관<i class="noun">noun</i><p class="eng">values</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio051.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio051.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">사람이 어떤 것의 가치에 대하여 가지는 태도나 판단의 기준.<p class="eng">One’s attitude or judgment criteria towards the value of a person or something.</p></dd>
+            <dd class="exm"><b>가치관</b>이 바뀌다.<p class="eng">Values change.</p></dd>
+        </dl>
+        <dl>
+            <dt>각<i class="determiner">determiner</i><p class="eng">each; every</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio053.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio053.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">여럿을 하나하나씩 떼어 놓은 낱낱의, 따로따로의.<p class="eng">Each and every one of multiple things or people.</p></dd>
+            <dd class="exm"><b>각</b> 학교.<p class="eng">each school</p></dd>
+        </dl>
+        <dl>
+            <dt>각각<i class="adverb">adverb</i><p class="eng">each; every</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio055.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio055.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">하나하나마다 따로.<p class="eng">Separately; each per each.</p></dd>
+            <dd class="exm"><b>각각</b> 다르다.<p class="eng">Each one is different.</p></dd>
+        </dl>
+        <dl>
+            <dt>각국<i class="noun">noun</i><p class="eng">each country</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio057.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio057.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">각각의 여러 나라.<p class="eng">Each of different countries.</p></dd>
+            <dd class="exm"><b>각국</b>의 대표.<p class="eng">each country’s representative.</p></dd>
+        </dl>
+        <dl>
+            <dt>각오<i class="noun">noun</i><p class="eng">determination; resolve</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio059.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio059.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">앞으로 겪을 힘든 일에 대한 마음의 준비.<p class="eng">Mental readiness for the difficulties that lie ahead.</p></dd>
+            <dd class="exm"><b>각오</b>를 하다.<p class="eng">to brace oneself</p></dd>
+        </dl>
+        <dl>
+            <dt>각자<i class="noun">noun</i><p class="eng">each; individual</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio060.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio060.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">각각의 사람. 또는 각각 자기 자신.<p class="eng">Each person or an individual’s own self.</p></dd>
+            <dd class="exm"><b>각자</b>가 책임지다.<p class="eng">Each person takes responsibility.</p></dd>
+        </dl>
+        <dl>
+            <dt>각종<i class="noun">noun</i><p class="eng">varieties; all kinds</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio062.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio062.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">여러 가지 종류.<p class="eng">Many different kinds of something.</p></dd>
+            <dd class="exm"><b>각종</b> 과일.<p class="eng">various kinds of fruit.</p></dd>
+        </dl>
+        <dl>
+            <dt>간(1)<i class="noun">noun</i><p class="eng">saltiness</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio066.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio066.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">음식의 짠 정도.<p class="eng">The degree of how salty the food is.</p></dd>
+            <dd class="exm"><b>간</b>을 보다.<p class="eng">to check the seasoning (of food).</p></dd>
+        </dl>
+        <dl>
+            <dt>간(2)<i class="noun">noun</i><p class="eng">liver</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio061.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio061.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">사람이나 동물의 몸속에서 해독 작용을 하는 기관.<p class="eng">An organ in a human or animal’s body, that detoxi󽗉es ingested substance.</p></dd>
+            <dd class="exm"><b>간</b>이 안 좋다.<p class="eng">to have a bad liver.</p></dd>
+        </dl>
+        <dl>
+            <dt>간(3)<i class="noun">noun</i><p class="eng">between</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio063.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio063.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어떠한 두 장소의 사이.<p class="eng">A bound noun used to refer to a gap between two places.</p></dd>
+            <dd class="exm">집과 학교 <b>간</b>의 거리.<p class="eng">the distance between home and school.</p></dd>
+        </dl>
+        <dl>
+            <dt>간격<i class="noun">noun</i><p class="eng">interval; space</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio064.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio064.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">거리나 시간이 벌어진 정도.<p class="eng">The distance between two spatial points, or the temporal distance between two points in time.</p></dd>
+            <dd class="exm"><b>간격</b>을 넓히다.<p class="eng">to broaden the gap.</p></dd>
+        </dl>
+        <dl>
+            <dt>간단하다<i class="adjective">adjective</i><p class="eng">simple</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio065.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio065.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">길거나 복잡하지 않다.<p class="eng">Not too lengthy or complex.</p></dd>
+            <dd class="exm"><b>간단하게</b> 답하다.<p class="eng">to reply simply.</p></dd>
+        </dl>
+        <dl>
+            <dt>간단히<i class="adverb">adverb</i><p class="eng">briefly</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio067.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio067.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">길거나 복잡하지 않게.<p class="eng">In a way that does not make something lengthy or complicated.</p></dd>
+            <dd class="exm"><b>간단히</b> 이야기하다.<p class="eng">to talk simply.</p></dd>
+        </dl>
+        <dl>
+            <dt>간섭<i class="noun">noun</i><p class="eng">interference; meddling</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio068.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio068.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">직접 관계가 없는 남의 일에 참견함.<p class="eng">An act of interfering in others’ matter, which has nothing to do with oneself.</p></dd>
+            <dd class="exm"><b>간섭</b>을 받다.<p class="eng">to be interfered with.</p></dd>
+        </dl>
+        <dl>
+            <dt>간식<i class="noun">noun</i><p class="eng">snack</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio070.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio070.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">식사와 식사 사이에 간단히 먹는 음식.<p class="eng">Food that one eats between meals.</p></dd>
+            <dd class="exm"><b>간식</b>을 먹다.<p class="eng">to have a snack.</p></dd>
+        </dl>
+        <dl>
+            <dt>간신히<i class="adverb">adverb</i><p class="eng">with difficulty</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio072.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio072.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">힘들게 겨우.<p class="eng">With much effort.</p></dd>
+            <dd class="exm"><b>간신히</b> 살아가다.<p class="eng">to barely get by.</p></dd>
+        </dl>
+        <dl>
+            <dt>간장<i class="noun">noun</i><p class="eng">soy sauce</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio074.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio074.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">음식의 간을 맞추는 데 쓰는, 짠맛이 나는 검은색 액체.<p class="eng">Salty, black liquid used to flavor food.</p></dd>
+            <dd class="exm"><b>간장</b>을 넣다.<p class="eng">to put in soy sauce.</p></dd>
+        </dl>
+        <dl>
+            <dt>간절하다<i class="adjective">adjective</i><p class="eng">earnest; eager</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio069.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio069.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">무엇을 바라는 마음이 아주 강하다.<p class="eng">Wishing for something very strongly.</p></dd>
+            <dd class="exm">기도가 <b>간절하다</b>.<p class="eng">The prayer is earnest.</p></dd>
+        </dl>
+        <dl>
+            <dt>간지럽다<i class="adjective">adjective</i><p class="eng">feel ticklish</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio071.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio071.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">무엇이 몸에 닿거나 누가 만져서 웃음이 나거나 견디기 어려운 느낌이 있다.<p class="eng">The sensation of one’s body touching or being touched by something being unbearable and causing laughter.</p></dd>
+            <dd class="exm">눈이 <b>간지럽다</b>.<p class="eng">One’s eyes are ticklish.</p></dd>
+        </dl>
+        <dl>
+            <dt>간판<i class="noun">noun</i><p class="eng">sign; signboard</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio073.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio073.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">가게나 기관 등의 이름을 써서 사람들의 눈에 잘 띄게 건물의 밖에 걸거나 붙이거나 세우는 판.<p class="eng">A signboard containing the name of a shop, institution, etc., which is hung or standing outside a building or attached to the façade of a building so as to be noticed by people.</p></dd>
+            <dd class="exm"><b>간판</b>을 걸다.<p class="eng">to hang up a signboard.</p></dd>
+        </dl>
+        <dl>
+            <dt>간편하다<i class="adjective">adjective</i><p class="eng">simple and comfortable</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio075.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio075.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">간단하고 편리하다.<p class="eng">Simple, easy, handy, and comfortable.</p></dd>
+            <dd class="exm">사용이 <b>간편하다</b>.<p class="eng">to be easy to use.</p></dd>
+        </dl>
+        <dl>
+            <dt>간호<i class="noun">noun</i><p class="eng">nursing; attendance</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio076.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio076.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">아픈 사람을 보살핌.<p class="eng">An act of taking care of someone who is sick.</p></dd>
+            <dd class="exm"><b>간호</b>를 받다.<p class="eng">to be cared for (when sick).</p></dd>
+        </dl>
+        <dl>
+            <dt>간호사<i class="noun">noun</i><p class="eng">nurse</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio078.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio078.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">병원에서 의사를 도와 환자를 돌보는 것이 직업인 사람.<p class="eng">A person whose job it is to assist doctors in taking care of patients at hospitals.</p></dd>
+            <dd class="exm"><b>간호사</b>를 부르다.<p class="eng">to call the nurse.</p></dd>
+        </dl>
+        <dl>
+            <dt>간혹<i class="adverb">adverb</i><p class="eng">sometimes; occasionally</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio080.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio080.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어쩌다가 아주 가끔.<p class="eng">Rare and at random intervals.</p></dd>
+            <dd class="exm"><b>간혹</b> 생기다.<p class="eng">to happen from time to time.</p></dd>
+        </dl>
+        <dl>
+            <dt>갇히다<i class="verb">verb</i><p class="eng">be locked up; be shut up</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio082.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio082.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어떤 공간이나 상황에서 나가지 못하게 되다.<p class="eng">To become stuck in a certain place or situation without an exit.</p></dd>
+            <dd class="exm">감옥에 <b>갇히다</b>.<p class="eng">to be in prison.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈다<i class="verb">verb</i><p class="eng">change; replace</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio084.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio084.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">이미 있던 물건을 치우고 그 자리에 다른 것을 대신 놓다.<p class="eng">To put something away and fill its place with another.</p></dd>
+            <dd class="exm">전구를 <b>갈다</b>.<p class="eng">to change a lightbulb.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈등<i class="noun">noun</i><p class="eng">conflict</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio077.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio077.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">서로 생각이 달라 부딪치는 것.<p class="eng">A situation where two parties are at odds with each other.</p></dd>
+            <dd class="exm"><b>갈등</b>이 심하다.<p class="eng">The conflict is severe.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈라지다<i class="verb">verb</i><p class="eng">be cracked</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio079.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio079.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">하나로 되어 있던 것이 금이 가거나 틈이 생겨 벌어지다.<p class="eng">For a single piece to be cracked or to be split open.</p></dd>
+            <dd class="exm">벽이 <b>갈라지다</b>.<p class="eng">The wall cracks.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈비<i class="noun">noun</i><p class="eng">ribs</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio081.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio081.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">음식의 재료로 쓰이는 소, 돼지, 닭 등의 가슴뼈와 거기에 붙은 살. 또는 그것으로 만든 음식.<p class="eng">Breastbones of cows, pigs, chickens, etc., and the flesh attached to these bones, used as an ingredient for food; or food made from these bones and their flesh.</p></dd>
+            <dd class="exm"><b>갈비</b>를 먹다.<p class="eng">to eat ribs.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈색<i class="noun">noun</i><p class="eng">brown</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio083.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio083.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">마른 나뭇잎처럼 거무스름한 누런 색.<p class="eng">The color of a fallen leaf, similar to dark yellow.</p></dd>
+            <dd class="exm"><b>갈색</b>으로 변하다.<p class="eng">to change to brown.</p></dd>
+        </dl>
+        <dl>
+            <dt>갈수록<i class="adverb">adverb</i><p class="eng">increasingly</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio085.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio085.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">시간이 지나면서 점점 더.<p class="eng">More and more in degree over time.</p></dd>
+            <dd class="exm"><b>갈수록</b> 늘어나다.<p class="eng">to get longer over time.</p></dd>
+        </dl>
+    </section>
+    <section class="consonant" id="2">
+        <h2>ㄴ</h2>
+        <dl>
+            <dt>나<i class="pronoun">pronoun</i><p class="eng">I</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio738.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio738.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">말하는 사람이 친구나 아랫사람에게 자기를 가리키는 말.<p class="eng">A pronoun used to indicate oneself to a friend or a younger person</p></dd>
+            <dd class="exm">친구가 <b>나</b>에게 사과를 하다.<p class="eng">My friend apologizes to me.</p></dd>
+        </dl>
+        <dl>
+            <dt>나가다<i class="verb">verb</i><p class="eng">go out; leave</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio740.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio740.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">어떤 지역이나 공간의 안에서 밖으로 이동하다.<p class="eng">To move from the inside to the outside of an area or space.</p></dd>
+            <dd class="exm">집 밖으로 <b>나가다</b>.<p class="eng">to go outside of the house.</p></dd>
+        </dl>
+        <dl>
+            <dt>나누다<i class="verb">verb</i><p class="eng">divide; split</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio742.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio742.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">원래 하나였던 것을 둘 이상의 부분이나 조각이 되게 하다.<p class="eng">To divide something that was one into two or more parts or pieces.</p></dd>
+            <dd class="exm">사과를 둘로 <b>나누다</b>.<p class="eng">to split an apple in two.</p></dd>
+        </dl>
+    </section>
+    <section class="consonant" id="3">
+        <h2>ㄷ</h2>
+        <dl>
+            <dt>다<i class="adverb">adverb</i><p class="eng">all; everything</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio739.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio739.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">남거나 빠진 것이 없이 모두.<p class="eng">Everything without anything left out or missing.</p></dd>
+            <dd class="exm">모두 <b>다</b> 모이다.<p class="eng">Everyone gathers together.</p></dd>
+        </dl>
+        <dl>
+            <dt>다가가다<i class="verb">verb</i><p class="eng">move closer</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio741.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio741.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">문 쪽으로 <b>다가가다</b>.<p class="eng">To move closer to a subject.</p></dd>
+            <dd class="exm">집 밖으로 <b>나가다</b>.<p class="eng">to move toward the door.</p></dd>
+        </dl>
+        <dl>
+            <dt>다가서다<i class="verb">verb</i><p class="eng">approach; become close</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio743.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio743.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">가깝게 옮겨 서다.<p class="eng">To go closer.</p></dd>
+            <dd class="exm">가까이에 <b>다가서다.</b><p class="eng">to stand close by.</p></dd>
+        </dl>
+    </section>
+    <section class="consonant" id="4">
+        <h2>ㄹ</h2>
+        <dl>
+            <dt>라디오<i class="noun">noun</i><p class="eng">radio</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio999.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio999.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">방송국에서 보내는 전파를 받아 음성으로 바꿔 주는 기계 장치.<p class="eng">A mechanical device the receives radio waves from a broadcasting station and then converts them into sounds.</p></dd>
+            <dd class="exm"><b>라디오를 켜다</b><p class="eng">to turn on the radio.</p></dd>
+        </dl>
+        <dl>
+            <dt>라면<i class="noun">noun</i><p class="eng">ramen; instant noodles</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio999.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio999.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">기름에 튀겨 말린 국수와 가루 스프가 들어 있어서 물에 끓이기만 하면 간편하게 먹을 수 있는 음식.<p class="eng">An easy-to-cook instant noodle dish made by just boiling previously-fried dry noodles and adding powdered soup to them.</p></dd>
+            <dd class="exm"><b>라면</b>을 끓이다.<p class="eng">to boil ramen noodles.</p></dd>
+        </dl>
+        <dl>
+            <dt>량<i class="noun">noun</i><p class="eng">amount</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio999.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio999.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">‘분량’이나 ‘수량’의 뜻을 나타내는 말.<p class="eng">A word that shows the amount or quantity of something.</p></dd>
+            <dd class="exm">강수<b>량</b>/교통<b>량</b>/작업<b>량</b><p class="eng">the amount of precipitation/tra󽗋c/work.</p></dd>
+        </dl>
+    </section>
+    <section class="consonant" id="5">
+        <h2>ㅁ</h2>
+        <dl>
+            <dt>마구<i class="adverb">adverb</i><p class="eng">severely</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio999.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio999.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">매우 심하게.<p class="eng">Very seriously.</p></dd>
+            <dd class="exm">사람을 <b>마구</b> 때리다.<p class="eng">to severely beat a person.</p></dd>
+        </dl>
+        <dl>
+            <dt>마늘<i class="noun">noun</i><p class="eng">garlic</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio999.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio999.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">통통한 작은 덩이 여러 쪽이 둥근 모양을 이루고 있고, 독특한 냄새가 있어 양념과 반찬에 널리 쓰이는 채소.<p class="eng">A vegetable with round cloves clustered in a circle, which has a unique smell and used widely for seasoning or side dishes.</p></dd>
+            <dd class="exm"><b>마늘</b>을 까다.<p class="eng">to peel garlic.</p></dd>
+        </dl>
+        <dl>
+            <dt>마당<i class="noun">noun</i><p class="eng">garden; yard</p><a</dt>
+            <dd class="audio"><input type="button" class="play" onclick="audio001.play();" style=""><!--재생--><input type="button" class="pause" onclick="audio001.pause();" style="display:none"> <!--일시정지--></dd>
+            <dd class="exp">집에 딸려 있는 평평하고 비어 있는 땅.<p class="eng">A 󽗊at, empty land attached to a house.</p></dd>
+            <dd class="exm"><b>마당</b>이 넓다.<p class="eng">The yard is big.</p></dd>
+        </dl>
+    </section>
+    
+
+</body>
